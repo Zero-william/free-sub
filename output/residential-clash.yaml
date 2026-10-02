@@ -6,17 +6,18 @@ log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
   type: vless
-  server: 188.114.97.6
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 154.17.228.81
+  port: 59686
+  uuid: 88ee0e1e-a2a2-477e-88ce-4875c058aeba
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: 123.714541.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /Ra-vl
     headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+      Host: 123.714541.xyz
 - name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
   type: vless
   server: 60.248.219.78
@@ -31,67 +32,6 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: ty986gfazs.cainiaohub.xyz
-- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
-  type: vless
-  server: hinet1.2yly.com
-  port: 24215
-  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
-  servername: addons.mozilla.org
-  client-fingerprint: chrome
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
-  type: vmess
-  server: hi.northcluster.info
-  port: 52300
-  uuid: 6e571484-4166-4699-8f58-b34a1823691f
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /video
-    headers:
-      Host: hi.northcluster.info
-- name: 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
-  type: vless
-  server: 172.67.69.129
-  port: 8880
-  uuid: d33cc776-9c57-4ea3-8c5a-6d85043029d7
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shiny-flower-c72d.105-161.workers.dev
-- name: 🇺🇸 美国 (United States) 06 (家宽) - xiaohe
-  type: vless
-  server: 154.17.228.81
-  port: 59686
-  uuid: 88ee0e1e-a2a2-477e-88ce-4875c058aeba
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 123.714541.xyz
-  network: ws
-  ws-opts:
-    path: /Ra-vl
-    headers:
-      Host: 123.714541.xyz
-- name: 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
-  type: ss
-  server: ce1fc2d8.krkt.hkssip.com
-  port: 49642
-  cipher: aes-256-gcm
-  password: ac9c0a7b
-  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -99,11 +39,6 @@ proxy-groups:
   - AUTO
   - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
-  - 🇺🇸 美国 (United States) 06 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -111,10 +46,5 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe
-  - 🇺🇸 美国 (United States) 06 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
