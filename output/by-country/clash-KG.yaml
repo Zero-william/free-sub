@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇰🇬 KG 01 - xiaohe
   type: vless
-  server: 172.64.52.6
-  port: 80
+  server: 162.159.45.19
+  port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -19,8 +19,8 @@ proxies:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇰🇬 KG 02 - xiaohe
   type: vless
-  server: 162.159.0.53
-  port: 2086
+  server: 104.18.34.14
+  port: 2095
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -32,21 +32,21 @@ proxies:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇰🇬 KG 03 - xiaohe
   type: vless
-  server: 162.159.45.19
-  port: 2086
+  server: 162.159.24.131
+  port: 2095
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls+
+    path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇰🇬 KG 04 - xiaohe
   type: vless
-  server: 162.159.0.53
-  port: 2095
+  server: 172.64.154.8
+  port: 8880
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -58,59 +58,7 @@ proxies:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇰🇬 KG 05 - xiaohe
   type: vless
-  server: 172.64.158.146
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇰🇬 KG 06 - xiaohe
-  type: vless
-  server: 162.159.45.19
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls+
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇰🇬 KG 07 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇰🇬 KG 08 - xiaohe
-  type: vless
-  server: 162.159.0.53
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇰🇬 KG 09 - xiaohe
-  type: vless
-  server: 172.64.154.8
+  server: 104.18.46.234
   port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -118,7 +66,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 proxy-groups:
@@ -131,10 +79,6 @@ proxy-groups:
   - 🇰🇬 KG 03 - xiaohe
   - 🇰🇬 KG 04 - xiaohe
   - 🇰🇬 KG 05 - xiaohe
-  - 🇰🇬 KG 06 - xiaohe
-  - 🇰🇬 KG 07 - xiaohe
-  - 🇰🇬 KG 08 - xiaohe
-  - 🇰🇬 KG 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -145,9 +89,5 @@ proxy-groups:
   - 🇰🇬 KG 03 - xiaohe
   - 🇰🇬 KG 04 - xiaohe
   - 🇰🇬 KG 05 - xiaohe
-  - 🇰🇬 KG 06 - xiaohe
-  - 🇰🇬 KG 07 - xiaohe
-  - 🇰🇬 KG 08 - xiaohe
-  - 🇰🇬 KG 09 - xiaohe
 rules:
 - MATCH,PROXIES
