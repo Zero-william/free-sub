@@ -5,21 +5,29 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - xiaohe
+  type: ss
+  server: 181.215.18.196
+  port: 1080
+  cipher: chacha20-ietf-poly1305
+  password: pno0e2keji2gsfea
+  udp: true
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
   type: vmess
-  server: 156.245.232.239
-  port: 35043
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  server: 194.99.79.26
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: ''
   network: ws
   ws-opts:
-    path: ''
+    path: /linkvws
     headers:
       Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
   type: vmess
   server: 194.99.79.26
   port: 443
@@ -35,9 +43,9 @@ proxies:
     path: /linkvws
     headers:
       Host: aksai.org
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
   type: vmess
-  server: i2psm3knof5qjjix.v.3dns.vip
+  server: 8.217.13.103
   port: 443
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   alterId: 0
@@ -45,13 +53,13 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ''
+  servername: qtkdr8jxe3wefxjm.v.3dns.vip
   network: ws
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+      Host: qtkdr8jxe3wefxjm.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
   type: vmess
   server: 194.99.79.26
   port: 443
@@ -67,13 +75,6 @@ proxies:
     path: /linkvws
     headers:
       Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
-  type: ss
-  server: telegram.khp25.com
-  port: 1080
-  cipher: chacha20-ietf-poly1305
-  password: pno0e2keji2gsfea
-  udp: true
 - name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
   type: vmess
   server: 47.83.207.148
@@ -91,6 +92,13 @@ proxies:
     headers:
       Host: VAH4URdZL3jDX5r2.v.3dns.vip
 - name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
+  type: ss
+  server: telegramx.khp25.com
+  port: 1080
+  cipher: chacha20-ietf-poly1305
+  password: m5nsedvdczx6x06e
+  udp: true
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
   type: vmess
   server: 194.99.79.26
   port: 443
@@ -106,29 +114,22 @@ proxies:
     path: /linkvws
     headers:
       Host: aksai.org
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
   type: vmess
-  server: 6JDvArazgU3qQR6Q.v.3dns.vip
+  server: 194.99.79.26
   port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  servername: aksai.org
   network: ws
   ws-opts:
-    path: /ws-vmess
+    path: /linkvws
     headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
-  type: ss
-  server: telegramx.khp25.com
-  port: 1080
-  cipher: chacha20-ietf-poly1305
-  password: m5nsedvdczx6x06e
-  udp: true
+      Host: aksai.org
 - name: 🇭🇰 中国香港 (Hong Kong) 10 - xiaohe
   type: vmess
   server: 194.99.79.26
@@ -146,31 +147,20 @@ proxies:
     headers:
       Host: aksai.org
 - name: 🇭🇰 中国香港 (Hong Kong) 11 - xiaohe
-  type: vmess
-  server: 47.243.65.243
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 47.238.210.5
+  port: 13779
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+  servername: tesla.com
+  client-fingerprint: qq
 - name: 🇭🇰 中国香港 (Hong Kong) 12 - xiaohe
-  type: ss
-  server: 181.215.18.196
-  port: 1080
-  cipher: chacha20-ietf-poly1305
-  password: pno0e2keji2gsfea
-  udp: true
-- name: 🇭🇰 中国香港 (Hong Kong) 13 - xiaohe
   type: vmess
-  server: ex1ogt73nzpqkac2.v.3dns.vip
+  server: 6JDvArazgU3qQR6Q.v.3dns.vip
   port: 443
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   alterId: 0
@@ -178,34 +168,41 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ''
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
   network: ws
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 14 - xiaohe
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 13 - xiaohe
   type: vmess
-  server: 194.99.79.26
+  server: i2psm3knof5qjjix.v.3dns.vip
   port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ''
+  servername: i2psm3knof5qjjix.v.3dns.vip
   network: ws
   ws-opts:
-    path: /linkvws
+    path: /ws-vmess
     headers:
-      Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 15 - xiaohe
+      Host: i2psm3knof5qjjix.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 14 - xiaohe
   type: ss
   server: 181.215.18.110
   port: 1080
   cipher: chacha20-ietf-poly1305
   password: m5nsedvdczx6x06e
+  udp: true
+- name: 🇭🇰 中国香港 (Hong Kong) 15 - xiaohe
+  type: ss
+  server: telegram.khp25.com
+  port: 1080
+  cipher: chacha20-ietf-poly1305
+  password: pno0e2keji2gsfea
   udp: true
 proxy-groups:
 - name: PROXIES
