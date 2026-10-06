@@ -54,7 +54,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: None
+      Host: 152.67.8.205
 - name: 🇮🇳 印度 (India) 05 - xiaohe
   type: vless
   server: 194.61.31.126
