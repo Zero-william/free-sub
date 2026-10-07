@@ -25,6 +25,27 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: CNL3mxdfZKiPKizL
   udp: true
+- name: 🇮🇪 IE 03 - xiaohe
+  type: ss
+  server: 20.223.236.165
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: CNL3mxdfZKiPKizL
+  udp: true
+- name: 🇮🇪 IE 04 - xiaohe
+  type: vless
+  server: 23.95.225.10
+  port: 8443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -32,6 +53,8 @@ proxy-groups:
   - AUTO
   - 🇮🇪 IE 01 - xiaohe
   - 🇮🇪 IE 02 - xiaohe
+  - 🇮🇪 IE 03 - xiaohe
+  - 🇮🇪 IE 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -39,5 +62,7 @@ proxy-groups:
   proxies:
   - 🇮🇪 IE 01 - xiaohe
   - 🇮🇪 IE 02 - xiaohe
+  - 🇮🇪 IE 03 - xiaohe
+  - 🇮🇪 IE 04 - xiaohe
 rules:
 - MATCH,PROXIES
