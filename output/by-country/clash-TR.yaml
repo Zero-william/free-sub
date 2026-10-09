@@ -20,18 +20,18 @@ proxies:
       Host: ccc.010304.xyz
 - name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   type: vless
-  server: 91.228.186.7
+  server: 130.94.1.150
   port: 443
-  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: x.m-90.xyz
+  servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: t.me/TEAMNETGRATISCOL
+    path: /cart/docs/www/proxyip=108.160.132.132
     headers:
-      Host: x.m-90.xyz
+      Host: lucasjow.us.ci
 proxy-groups:
 - name: PROXIES
   type: select

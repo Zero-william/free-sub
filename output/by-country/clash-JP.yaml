@@ -19,122 +19,6 @@ proxies:
     headers:
       Host: lucasjow.us.ci
 - name: 🇯🇵 日本 (Japan) 02 - xiaohe
-  type: ss
-  server: 149.22.87.240
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 03 - xiaohe
-  type: vless
-  server: 104.21.16.152
-  port: 443
-  uuid: 3d841cdf-f91e-4f3b-a315-c18edcbd2606
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jeffsubs.com
-  network: ws
-  ws-opts:
-    path: /nnuyws
-    headers:
-      Host: jeffsubs.com
-- name: 🇯🇵 日本 (Japan) 04 - xiaohe
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 05 - xiaohe
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 06 - xiaohe
-  type: vless
-  server: 104.21.70.228
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 07 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 08 - xiaohe
-  type: vmess
-  server: jp032007.ssgreen.org
-  port: 443
-  uuid: 33387c30-5f6e-4e72-941b-0c1b599a80dc
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /wes
-    headers:
-      Host: ''
-- name: 🇯🇵 日本 (Japan) 09 - xiaohe
-  type: ss
-  server: 149.22.87.241
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 10 - xiaohe
-  type: ss
-  server: 84.247.155.196
-  port: 443
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 11 - xiaohe
-  type: ss
-  server: 149.22.87.204
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 12 - xiaohe
-  type: vless
-  server: 142.91.101.39
-  port: 627
-  uuid: 3f87daa8-3af8-40a0-b655-127911e008dc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev
-- name: 🇯🇵 日本 (Japan) 13 - xiaohe
   type: vmess
   server: 168.138.43.75
   port: 80
@@ -148,22 +32,95 @@ proxies:
   ws-opts:
     path: /cctv13.m3u8
     headers:
-      Host: ''
-- name: 🇯🇵 日本 (Japan) 14 - xiaohe
+      Host: 168.138.43.75
+- name: 🇯🇵 日本 (Japan) 03 - xiaohe
+  type: ss
+  server: 84.247.155.196
+  port: 80
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇯🇵 日本 (Japan) 04 - xiaohe
   type: vless
-  server: 103.53.80.44
+  server: 172.67.213.168
   port: 443
-  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+  uuid: 3d841cdf-f91e-4f3b-a315-c18edcbd2606
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: x.m-90.xyz
+  servername: jeffsubs.com
   network: ws
   ws-opts:
-    path: t.me/TEAMNETGRATISCOL
+    path: /nnuyws
     headers:
-      Host: x.m-90.xyz
-- name: 🇯🇵 日本 (Japan) 15 - xiaohe
+      Host: jeffsubs.com
+- name: 🇯🇵 日本 (Japan) 05 - xiaohe
+  type: vless
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 06 - xiaohe
+  type: ss
+  server: 84.247.155.196
+  port: 443
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇯🇵 日本 (Japan) 07 - xiaohe
+  type: ss
+  server: 149.22.87.241
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 08 - xiaohe
+  type: vmess
+  server: 168.138.43.75
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: none
+- name: 🇯🇵 日本 (Japan) 09 - xiaohe
+  type: vless
+  server: 104.16.10.104
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 10 - xiaohe
+  type: vmess
+  server: 168.138.43.75
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: 168.138.43.75
+- name: 🇯🇵 日本 (Japan) 11 - xiaohe
   type: vless
   server: 104.21.0.87
   port: 443
@@ -177,7 +134,7 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 16 - xiaohe
+- name: 🇯🇵 日本 (Japan) 12 - xiaohe
   type: vmess
   server: 168.138.43.75
   port: 80
@@ -191,10 +148,25 @@ proxies:
   ws-opts:
     path: /cctv13.m3u8
     headers:
-      Host: jp01.a0a.xyz
-- name: 🇯🇵 日本 (Japan) 17 - xiaohe
+      Host: ''
+- name: 🇯🇵 日本 (Japan) 13 - xiaohe
+  type: ss
+  server: 149.22.87.204
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 14 - xiaohe
   type: vless
-  server: 104.21.34.106
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 15 - xiaohe
+  type: vless
+  server: 188.114.97.6
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -206,14 +178,14 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 18 - xiaohe
+- name: 🇯🇵 日本 (Japan) 16 - xiaohe
   type: ss
-  server: 84.247.155.196
-  port: 80
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
+  server: 149.22.87.240
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-- name: 🇯🇵 日本 (Japan) 19 - xiaohe
+- name: 🇯🇵 日本 (Japan) 17 - xiaohe
   type: vless
   server: 137.220.221.179
   port: 443
@@ -221,30 +193,6 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 20 - xiaohe
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 21 - xiaohe
-  type: vmess
-  server: jp032005.ssgreen.org
-  port: 443
-  uuid: 1e2bb223-450c-4b89-95d5-11269115affa
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /wes
-    headers:
-      Host: ''
 proxy-groups:
 - name: PROXIES
   type: select
@@ -267,10 +215,6 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 15 - xiaohe
   - 🇯🇵 日本 (Japan) 16 - xiaohe
   - 🇯🇵 日本 (Japan) 17 - xiaohe
-  - 🇯🇵 日本 (Japan) 18 - xiaohe
-  - 🇯🇵 日本 (Japan) 19 - xiaohe
-  - 🇯🇵 日本 (Japan) 20 - xiaohe
-  - 🇯🇵 日本 (Japan) 21 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -293,9 +237,5 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 15 - xiaohe
   - 🇯🇵 日本 (Japan) 16 - xiaohe
   - 🇯🇵 日本 (Japan) 17 - xiaohe
-  - 🇯🇵 日本 (Japan) 18 - xiaohe
-  - 🇯🇵 日本 (Japan) 19 - xiaohe
-  - 🇯🇵 日本 (Japan) 20 - xiaohe
-  - 🇯🇵 日本 (Japan) 21 - xiaohe
 rules:
 - MATCH,PROXIES
