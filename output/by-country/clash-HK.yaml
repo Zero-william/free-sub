@@ -5,29 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - xiaohe
-  type: ss
-  server: ruot.ayucloudservices.nl
-  port: 40004
-  cipher: aes-128-gcm
-  password: 70a5c510-d56d-43e7-b150-9c00c969bd50
-  udp: true
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
-  type: vmess
-  server: 47.243.153.153
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: I2PSm3Knof5qjjix.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: I2PSm3Knof5qjjix.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
   type: vmess
   server: 156.245.232.239
   port: 35043
@@ -41,22 +18,23 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
-  type: vless
-  server: 43.129.80.179
-  port: 8443
-  uuid: d342d11e-d224-4463-b982-532309285094
+      Host: www.pubgmobile.com
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
+  type: vmess
+  server: 47.244.120.197
+  port: 23026
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /arki
     headers:
-      Host: ccc.010304.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
+      Host: 47.244.120.197
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
   type: vless
   server: 34.92.19.135
   port: 443
@@ -67,34 +45,23 @@ proxies:
   reality-opts:
     public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
   servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
-  type: vless
-  server: 61.18.134.10
-  port: 443
-  uuid: e077d2c2-7dc5-4e6e-a44d-79c4e4d8b384
+  client-fingerprint: ios
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+  type: vmess
+  server: 47.244.120.197
+  port: 36703
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: mswo-gy191m.zhiyuantech.cloud
   network: ws
   ws-opts:
-    path: /e077d2c2-7dc5-4e6e-a44d-79c4e4d8b384
+    path: /arki
     headers:
-      Host: mswo-gy191m.zhiyuantech.cloud
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
-  type: vless
-  server: 47.238.210.5
-  port: 13779
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-  servername: tesla.com
-  client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
+      Host: ''
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
   type: vmess
   server: 8.217.13.103
   port: 443
@@ -110,22 +77,63 @@ proxies:
     path: /ws-vmess
     headers:
       Host: qtkdr8jxe3wefxjm.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
   type: vmess
-  server: yg1.ygkkk.dpdns.org
-  port: 443
-  uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0
+  server: 156.245.232.239
+  port: 35043
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: jmp1.907737.xyz
   network: ws
   ws-opts:
-    path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
+    path: /
     headers:
-      Host: jmp1.907737.xyz
+      Host: ''
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
+  type: vless
+  server: 43.129.80.179
+  port: 8443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
+  type: vless
+  server: 130.94.33.80
+  port: 443
+  uuid: 365bebc8-894e-424f-95bf-7edbef311b23
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: hk.sepporated.com
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: hk.sepporated.com
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
+  type: vless
+  server: 130.94.33.80
+  port: 443
+  uuid: 365bebc8-894e-424f-95bf-7edbef311b23
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: hk.sepporated.com
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: 130.94.33.80
 proxy-groups:
 - name: PROXIES
   type: select

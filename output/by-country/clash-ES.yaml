@@ -17,34 +17,6 @@ proxies:
   servername: www.apple.com
   client-fingerprint: random
 - name: 🇪🇸 西班牙 (Spain) 02 - xiaohe
-  type: vless
-  server: 185.220.249.44
-  port: 2053
-  uuid: 6d1590ed-4c0f-4bbc-931d-2431737615dd
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 185.220.249.44
-  network: ws
-  ws-opts:
-    path: /ws-cdn1-vless
-    headers:
-      Host: es.fastmirror-labs.xyz
-- name: 🇪🇸 西班牙 (Spain) 03 - xiaohe
-  type: vless
-  server: 185.220.249.44
-  port: 2053
-  uuid: 6d1590ed-4c0f-4bbc-931d-2431737615dd
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 185.220.249.44
-  network: ws
-  ws-opts:
-    path: /ws-cdn1-vless
-    headers:
-      Host: es.fastmirror-labs.xyz
-- name: 🇪🇸 西班牙 (Spain) 04 - xiaohe
   type: ss
   server: 108.181.121.226
   port: 8388
@@ -58,8 +30,6 @@ proxy-groups:
   - AUTO
   - 🇪🇸 西班牙 (Spain) 01 - xiaohe
   - 🇪🇸 西班牙 (Spain) 02 - xiaohe
-  - 🇪🇸 西班牙 (Spain) 03 - xiaohe
-  - 🇪🇸 西班牙 (Spain) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -67,7 +37,5 @@ proxy-groups:
   proxies:
   - 🇪🇸 西班牙 (Spain) 01 - xiaohe
   - 🇪🇸 西班牙 (Spain) 02 - xiaohe
-  - 🇪🇸 西班牙 (Spain) 03 - xiaohe
-  - 🇪🇸 西班牙 (Spain) 04 - xiaohe
 rules:
 - MATCH,PROXIES
