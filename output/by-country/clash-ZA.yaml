@@ -5,13 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇿🇦 ZA 01 - xiaohe
-  type: ss
-  server: 102.133.165.160
-  port: 16233
-  cipher: chacha20-ietf-poly1305
-  password: Xsy8Ox4yOV3xLlpxtjzs3X
-  udp: true
-- name: 🇿🇦 ZA 02 - xiaohe
   type: vless
   server: 34.35.186.228
   port: 443
@@ -23,6 +16,13 @@ proxies:
     public-key: bSN0cv0VMxmYZsNsMkkLndOTHZu74C1htJ2M71QMaVE
   servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇿🇦 ZA 02 - xiaohe
+  type: ss
+  server: 102.133.165.160
+  port: 16233
+  cipher: chacha20-ietf-poly1305
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  udp: true
 - name: 🇿🇦 ZA 03 - xiaohe
   type: ss
   server: 102.37.156.224
