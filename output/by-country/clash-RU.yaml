@@ -6,32 +6,32 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   type: vless
-  server: 194.226.121.119
+  server: 172.67.220.34
   port: 443
-  uuid: ec6f8131-7a5d-4117-9627-6fb2b39ae0da
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: drive.korroh.com
+  servername: INDEX.Arcane509.Workers.DEV
   network: ws
   ws-opts:
-    path: /remote.php/dav/89f7661a0011ce46
+    path: /
     headers:
-      Host: drive.korroh.com
+      Host: index.arcane509.workers.dev
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   type: vless
-  server: cloud.korroh.com
-  port: 443
-  uuid: ec6f8131-7a5d-4117-9627-6fb2b39ae0da
+  server: 104.21.12.63
+  port: 8443
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cloud.korroh.com
+  servername: INDEX.Arcane509.Workers.DEV
   network: ws
   ws-opts:
-    path: /remote.php/dav/89f7661a0011ce46
+    path: /
     headers:
-      Host: cloud.korroh.com
+      Host: index.arcane509.workers.dev
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   type: ss
   server: 130.49.189.158
@@ -41,18 +41,50 @@ proxies:
   udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
   type: vless
-  server: 91.215.43.248
+  server: 79.174.92.222
   port: 443
-  uuid: a5893c8b-28a2-4947-9a1c-708db25506c3
+  uuid: 03ca8c3f-e777-45b5-a1b1-592094ca99ee
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: my.kempekl.online
+  reality-opts:
+    public-key: _PYBo3dyZRpGC44vADqcmlBCSeAVh1X8l3mulghVsTI
+  servername: m.vk.com
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  type: vless
+  server: 172.65.90.52
+  port: 8880
+  uuid: 30e4c878-15ca-4f53-ab32-04c60ecd3f31
+  udp: true
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /gateway/v1/ws/a64eb463966ba9c4bfd628f1de0362ae
+    path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
-      Host: my.kempekl.online
+      Host: blue-rice-7142.30-346.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+  type: ss
+  server: 46.29.166.27
+  port: 20221
+  cipher: aes-256-gcm
+  password: 6b39ae3234dfd68b
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
+  type: vless
+  server: 172.67.130.187
+  port: 2083
+  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fans.liverpool.qzz.io
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiY0Y0cENQUmxsNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: fans.liverpool.qzz.io
 proxy-groups:
 - name: PROXIES
   type: select
@@ -62,6 +94,9 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -71,5 +106,8 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
 rules:
 - MATCH,PROXIES
