@@ -4,30 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
+- name: 🇧🇬 BG 01 - xiaohe
   type: vless
-  server: 172.66.170.53
-  port: 8880
-  uuid: 38ede46b-d237-4c76-9de1-a10738642adc
+  server: 85.217.170.89
+  port: 443
+  uuid: b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: rnxq-1lpi3m.linmeisoft.com
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
+    path: /b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
     headers:
-      Host: summer-hat-ba5c.430.workers.dev
+      Host: rnxq-1lpi3m.linmeisoft.com
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
+  - 🇧🇬 BG 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
+  - 🇧🇬 BG 01 - xiaohe
 rules:
 - MATCH,PROXIES
