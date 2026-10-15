@@ -5,36 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇿 KZ 01 - xiaohe
-  type: vmess
-  server: 38.107.234.57
-  port: 80
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: ''
-- name: 🇰🇿 KZ 02 - xiaohe
-  type: vmess
-  server: 38.107.234.57
-  port: 80
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: 38.107.234.57
-- name: 🇰🇿 KZ 03 - xiaohe
   type: vless
   server: 83.222.23.81
   port: 38065
@@ -46,64 +16,7 @@ proxies:
     public-key: dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo
   servername: yahoo.com
   client-fingerprint: chrome
-- name: 🇰🇿 KZ 04 - xiaohe
-  type: vmess
-  server: 38.107.234.57
-  port: 80
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: ''
-- name: 🇰🇿 KZ 05 - xiaohe
-  type: vmess
-  server: 38.107.234.57
-  port: 80
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: 3h-kazakhstan1.09vpn.com
-- name: 🇰🇿 KZ 06 - xiaohe
-  type: vmess
-  server: 3h-kazakhstan1.09vpn.com
-  port: 80
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-- name: 🇰🇿 KZ 07 - xiaohe
-  type: vless
-  server: 178.236.16.98
-  port: 35728
-  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
-  servername: yahoo.com
-  client-fingerprint: chrome
-- name: 🇰🇿 KZ 08 - xiaohe
+- name: 🇰🇿 KZ 02 - xiaohe
   type: vless
   server: 109.248.170.119
   port: 13447
@@ -115,7 +28,7 @@ proxies:
     public-key: _0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE
   servername: yahoo.com
   client-fingerprint: chrome
-- name: 🇰🇿 KZ 09 - xiaohe
+- name: 🇰🇿 KZ 03 - xiaohe
   type: vless
   server: 109.248.170.119
   port: 13447
@@ -127,7 +40,7 @@ proxies:
     public-key: _0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE
   servername: yahoo.com
   client-fingerprint: firefox
-- name: 🇰🇿 KZ 10 - xiaohe
+- name: 🇰🇿 KZ 04 - xiaohe
   type: vless
   server: 109.248.170.119
   port: 13447
@@ -148,12 +61,6 @@ proxy-groups:
   - 🇰🇿 KZ 02 - xiaohe
   - 🇰🇿 KZ 03 - xiaohe
   - 🇰🇿 KZ 04 - xiaohe
-  - 🇰🇿 KZ 05 - xiaohe
-  - 🇰🇿 KZ 06 - xiaohe
-  - 🇰🇿 KZ 07 - xiaohe
-  - 🇰🇿 KZ 08 - xiaohe
-  - 🇰🇿 KZ 09 - xiaohe
-  - 🇰🇿 KZ 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -163,11 +70,5 @@ proxy-groups:
   - 🇰🇿 KZ 02 - xiaohe
   - 🇰🇿 KZ 03 - xiaohe
   - 🇰🇿 KZ 04 - xiaohe
-  - 🇰🇿 KZ 05 - xiaohe
-  - 🇰🇿 KZ 06 - xiaohe
-  - 🇰🇿 KZ 07 - xiaohe
-  - 🇰🇿 KZ 08 - xiaohe
-  - 🇰🇿 KZ 09 - xiaohe
-  - 🇰🇿 KZ 10 - xiaohe
 rules:
 - MATCH,PROXIES
