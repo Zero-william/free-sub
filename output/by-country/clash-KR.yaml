@@ -5,20 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 - xiaohe
-  type: vmess
-  server: 132.145.80.230
-  port: 80
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 151.245.106.49
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: kr02.a0a.xyz
+  reality-opts:
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
+  servername: www.cloudflare.com
+  client-fingerprint: random
 - name: 🇰🇷 韩国 (South Korea) 02 - xiaohe
   type: vmess
   server: 132.145.80.230
@@ -33,13 +30,13 @@ proxies:
   ws-opts:
     path: /cctv13.m3u8
     headers:
-      Host: ''
+      Host: kr02.a0a.xyz
 - name: 🇰🇷 韩国 (South Korea) 03 - xiaohe
   type: ss
   server: 141.164.45.187
-  port: 9101
+  port: 6697
   cipher: aes-256-gcm
-  password: e4FCWrgpkji3QY
+  password: TEzjfAYq2IjtuoS
   udp: true
 - name: 🇰🇷 韩国 (South Korea) 04 - xiaohe
   type: vless
@@ -65,21 +62,6 @@ proxies:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
   client-fingerprint: firefox
-- name: 🇰🇷 韩国 (South Korea) 06 - xiaohe
-  type: vmess
-  server: 132.145.80.230
-  port: 80
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: kr02.a0a.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -90,7 +72,6 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 03 - xiaohe
   - 🇰🇷 韩国 (South Korea) 04 - xiaohe
   - 🇰🇷 韩国 (South Korea) 05 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -101,6 +82,5 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 03 - xiaohe
   - 🇰🇷 韩国 (South Korea) 04 - xiaohe
   - 🇰🇷 韩国 (South Korea) 05 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 06 - xiaohe
 rules:
 - MATCH,PROXIES
