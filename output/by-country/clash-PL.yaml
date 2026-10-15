@@ -15,7 +15,7 @@ proxies:
   servername: pl.flen-vpn.xyz
 - name: 🇵🇱 PL 02 - xiaohe
   type: vless
-  server: pl.flen-vpn.xyz
+  server: 2.26.225.89
   port: 8443
   uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
   udp: true
@@ -24,13 +24,16 @@ proxies:
   servername: pl.flen-vpn.xyz
 - name: 🇵🇱 PL 03 - xiaohe
   type: vless
-  server: 2.26.225.89
-  port: 8443
-  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
+  server: pl4.h1cloud.net
+  port: 25080
+  uuid: 0c3ad9d5-cffd-4748-b8df-ab145288144b
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: pl.flen-vpn.xyz
+  reality-opts:
+    public-key: CMAkhR1kevtK85rK9B5nmQtFZATsLOIq6nuG83BA8lI
+  servername: www.ceneo.pl
+  client-fingerprint: chrome
 - name: 🇵🇱 PL 04 - xiaohe
   type: vless
   server: pl4.h1cloud.net
@@ -45,16 +48,13 @@ proxies:
   client-fingerprint: chrome
 - name: 🇵🇱 PL 05 - xiaohe
   type: vless
-  server: pl4.h1cloud.net
-  port: 25080
-  uuid: 0c3ad9d5-cffd-4748-b8df-ab145288144b
+  server: 2.26.225.89
+  port: 8443
+  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: CMAkhR1kevtK85rK9B5nmQtFZATsLOIq6nuG83BA8lI
-  servername: www.ceneo.pl
-  client-fingerprint: chrome
+  servername: pl.flen-vpn.xyz
 - name: 🇵🇱 PL 06 - xiaohe
   type: vless
   server: pl4.h1cloud.net
@@ -67,6 +67,15 @@ proxies:
     public-key: CMAkhR1kevtK85rK9B5nmQtFZATsLOIq6nuG83BA8lI
   servername: www.ceneo.pl
   client-fingerprint: chrome
+- name: 🇵🇱 PL 07 - xiaohe
+  type: vless
+  server: pl.flen-vpn.xyz
+  port: 8443
+  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: pl.flen-vpn.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -78,6 +87,7 @@ proxy-groups:
   - 🇵🇱 PL 04 - xiaohe
   - 🇵🇱 PL 05 - xiaohe
   - 🇵🇱 PL 06 - xiaohe
+  - 🇵🇱 PL 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -89,5 +99,6 @@ proxy-groups:
   - 🇵🇱 PL 04 - xiaohe
   - 🇵🇱 PL 05 - xiaohe
   - 🇵🇱 PL 06 - xiaohe
+  - 🇵🇱 PL 07 - xiaohe
 rules:
 - MATCH,PROXIES
