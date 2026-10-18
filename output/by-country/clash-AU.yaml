@@ -21,6 +21,30 @@ proxies:
     headers:
       Host: aus.lovehk.xyz
 - name: 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
+  type: vless
+  server: 212.81.47.99
+  port: 51106
+  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 2k8UhfxEK4WSVLWUr-uRExRiTiAsacWpe6I1xrnyt38
+  servername: apple.com
+  client-fingerprint: chrome
+- name: 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
+  type: vless
+  server: 212.81.47.99
+  port: 51106
+  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 2k8UhfxEK4WSVLWUr-uRExRiTiAsacWpe6I1xrnyt38
+  servername: apple.com
+  client-fingerprint: chrome
+- name: 🇦🇺 澳大利亚 (Australia) 04 - xiaohe
   type: vmess
   server: 172.67.195.146
   port: 443
@@ -36,32 +60,6 @@ proxies:
     path: /Sydney3
     headers:
       Host: aus.lovehk.xyz
-- name: 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
-  type: vless
-  server: 104.18.155.229
-  port: 443
-  uuid: 42026ed0-7d74-4585-8e46-0fe6aa4d665a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: www.genflix.co.id.r3xxe.eu.cc
-  network: ws
-  ws-opts:
-    path: /au-do
-    headers:
-      Host: www.genflix.co.id.r3xxe.eu.cc
-- name: 🇦🇺 澳大利亚 (Australia) 04 - xiaohe
-  type: vless
-  server: 212.81.47.99
-  port: 51106
-  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 2k8UhfxEK4WSVLWUr-uRExRiTiAsacWpe6I1xrnyt38
-  servername: apple.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
