@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 - xiaohe
   type: vless
-  server: 188.114.98.0
+  server: 188.114.97.6
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -15,12 +15,12 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /
+    path: /?@EVAY_VPN
     headers:
       Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 02 - xiaohe
   type: vless
-  server: cf.090227.xyz
+  server: 188.114.97.6
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -29,13 +29,13 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /+
+    path: /?TELEGRAM--V2ray_confiig?ed=2560
     headers:
       Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 03 - xiaohe
   type: vless
-  server: 172.67.155.65
-  port: 8443
+  server: 188.114.97.6
+  port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
@@ -43,181 +43,10 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip?ed#Telegram---bored_vpn
+    path: /?Telegram---bored_vpn?ed=2560
     headers:
       Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 04 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 05 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?DailyConfigs---DailyConfigs---DailyConfigs?ed=2056
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 06 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 07 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 08 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 09 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 10 - xiaohe
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 11 - xiaohe
-  type: vless
-  server: 172.67.155.65
-  port: 8443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 12 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: Tfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 13 - xiaohe
-  type: vless
-  server: 172.67.155.65
-  port: 8443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?DailyConfigs---DailyConfigs---DailyConfigs?ed=2056
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 14 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigsfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 15 - xiaohe
-  type: vmess
-  server: 38.91.107.49
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 16 - xiaohe
-  type: ss
-  server: 15.204.233.41
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: 🇺🇸 美国 (United States) 17 - xiaohe
   type: vless
   server: 172.67.155.65
   port: 8443
@@ -231,56 +60,7 @@ proxies:
     path: /cart/docs/www/proxyip?ed#Telegram
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 18 - xiaohe
-  type: ss
-  server: 15.204.246.107
-  port: 8888
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇺🇸 美国 (United States) 19 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 20 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 21 - xiaohe
-  type: vless
-  server: cf.877774.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 22 - xiaohe
+- name: 🇺🇸 美国 (United States) 05 - xiaohe
   type: vless
   server: 104.18.43.174
   port: 443
@@ -291,38 +71,10 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 23 - xiaohe
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: eccc053a-7196-47cb-a4b5-f4b8bfd743d9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: firefox.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: copy_az_channel_NUFiLTER_5i.global.ssl.fastly.net.
-- name: 🇺🇸 美国 (United States) 24 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 25 - xiaohe
+- name: 🇺🇸 美国 (United States) 06 - xiaohe
   type: vless
   server: 31.77.126.2
   port: 443
@@ -333,12 +85,12 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp
+    path: /fp#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
     headers:
       Host: ccc.010304.xyz
-- name: 🇺🇸 美国 (United States) 26 - xiaohe
+- name: 🇺🇸 美国 (United States) 07 - xiaohe
   type: vless
-  server: 188.114.98.0
+  server: 188.114.97.6
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -347,12 +99,12 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI
+    path: /
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 27 - xiaohe
+- name: 🇺🇸 美国 (United States) 08 - xiaohe
   type: vless
-  server: 188.114.98.0
+  server: 188.114.97.6
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -361,24 +113,10 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
+    path: /
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 28 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 29 - xiaohe
+- name: 🇺🇸 美国 (United States) 09 - xiaohe
   type: vless
   server: 172.67.155.65
   port: 8443
@@ -389,145 +127,20 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip?ed
+    path: /cart/docs/www/proxyip
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 30 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: '3'
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 31 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 32 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 33 - xiaohe
-  type: ss
-  server: 198.98.53.130
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: eDfN7SODQceIOmIAbtJJtK
-  udp: true
-- name: 🇺🇸 美国 (United States) 34 - xiaohe
+- name: 🇺🇸 美国 (United States) 10 - xiaohe
   type: vmess
-  server: cf.0sm.com
-  port: 443
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  server: 84.17.41.2
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: vmess.lbw666.dpdns.org
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: vmess.lbw666.dpdns.org
-- name: 🇺🇸 美国 (United States) 35 - xiaohe
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 36 - xiaohe
-  type: vless
-  server: cf.877774.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /+
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 37 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2048
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 38 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboranfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 39 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 2053
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---fp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 40 - xiaohe
+- name: 🇺🇸 美国 (United States) 11 - xiaohe
   type: vless
   server: 188.114.98.0
   port: 443
@@ -541,188 +154,9 @@ proxies:
     path: /?Telegram---TEHRANARGO
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 41 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hubfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 42 - xiaohe
-  type: vless
-  server: 104.18.1.1
-  port: 2083
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vlsovip.1d.mom
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vlsovip.1d.mom
-- name: 🇺🇸 美国 (United States) 43 - xiaohe
-  type: vless
-  server: 45.138.100.248
-  port: 10443
-  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 44 - xiaohe
+- name: 🇺🇸 美国 (United States) 12 - xiaohe
   type: vless
   server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 45 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 46 - xiaohe
-  type: ss
-  server: 37.19.198.244
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 47 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---bored_vpn
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 48 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 49 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 50 - xiaohe
-  type: vmess
-  server: 84.17.41.2
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 51 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---V2ray_confiig?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 52 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /p=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 53 - xiaohe
-  type: vless
-  server: 104.18.43.174
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 54 - xiaohe
-  type: vless
-  server: 31.77.126.2
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇺🇸 美国 (United States) 55 - xiaohe
-  type: vless
-  server: 188.114.97.6
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -734,49 +168,7 @@ proxies:
     path: /cart/docs/www/proxyip
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 56 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: a.cwvps.eu.org
-  network: ws
-  ws-opts:
-    path: /ws#TELEGRAM--pirozi_ArGaP?ed=2560
-    headers:
-      Host: a.cwvps.eu.org
-- name: 🇺🇸 美国 (United States) 57 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MTMVPN--MTMVPN--MTMVPN--MTMVPN?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 58 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---bored_vpnfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 59 - xiaohe
+- name: 🇺🇸 美国 (United States) 13 - xiaohe
   type: vless
   server: 104.21.91.244
   port: 443
@@ -787,23 +179,13 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?TELEGRAM--MTMVPN--MTMVPN--MTMVPN--MTMVPN?ed=2560
+    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2560
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 60 - xiaohe
-  type: vmess
-  server: 84.17.41.2
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 61 - xiaohe
+- name: 🇺🇸 美国 (United States) 14 - xiaohe
   type: vless
-  server: 172.67.155.65
-  port: 8443
+  server: 188.114.98.0
+  port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
@@ -811,52 +193,12 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2048
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 62 - xiaohe
-  type: vmess
-  server: 172.64.80.1
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: v2ray1.dozapp.xyz
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-- name: 🇺🇸 美国 (United States) 63 - xiaohe
-  type: vmess
-  server: 84.17.41.2
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 64 - xiaohe
+- name: 🇺🇸 美国 (United States) 15 - xiaohe
   type: vless
-  server: 172.67.155.65
-  port: 2053
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 65 - xiaohe
-  type: vless
-  server: 172.64.144.82
+  server: 104.21.91.244
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -868,24 +210,10 @@ proxies:
     path: /
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 66 - xiaohe
+- name: 🇺🇸 美国 (United States) 16 - xiaohe
   type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboran?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 67 - xiaohe
-  type: vless
-  server: 104.21.91.244
-  port: 443
+  server: 172.67.155.65
+  port: 8443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
@@ -896,7 +224,7 @@ proxies:
     path: /?DailyConfigs---DailyConfigs---DailyConfigs?ed=2056
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 68 - xiaohe
+- name: 🇺🇸 美国 (United States) 17 - xiaohe
   type: vless
   server: 188.114.97.6
   port: 443
@@ -907,10 +235,27 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?Telegram---mehrosaboran
+    path: /
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 69 - xiaohe
+- name: 🇺🇸 美国 (United States) 18 - xiaohe
+  type: ss
+  server: 216.9.225.189
+  port: 443
+  cipher: 2022-blake3-aes-256-gcm
+  password: Q2YsIzc5YkchSFjsqUZWrQAFtsSpqf7XxYxkG4+Jbsk=:zT1SecPttPY/XPW6NwjK5Wql+/6zbcGSDJK21Jk8uLo=
+  udp: true
+- name: 🇺🇸 美国 (United States) 19 - xiaohe
+  type: vmess
+  server: 67.220.95.3
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 20 - xiaohe
   type: vless
   server: 188.114.98.0
   port: 443
@@ -921,10 +266,24 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?Telegram---mehrosaboran
+    path: /?TELEGRAM--v2ray_configs_pools?ed
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 70 - xiaohe
+- name: 🇺🇸 美国 (United States) 21 - xiaohe
+  type: vless
+  server: 172.67.155.65
+  port: 8443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 22 - xiaohe
   type: vless
   server: 188.114.97.6
   port: 443
@@ -935,52 +294,10 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /
+    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2560
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 71 - xiaohe
-  type: vless
-  server: 31.77.126.2
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇺🇸 美国 (United States) 72 - xiaohe
-  type: vless
-  server: 172.66.0.162
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇺🇸 美国 (United States) 73 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 74 - xiaohe
+- name: 🇺🇸 美国 (United States) 23 - xiaohe
   type: vmess
   server: 129.146.77.248
   port: 39495
@@ -994,10 +311,10 @@ proxies:
   ws-opts:
     path: /cctv13.m3u8
     headers:
-      Host: 129.146.77.248
-- name: 🇺🇸 美国 (United States) 75 - xiaohe
+      Host: ''
+- name: 🇺🇸 美国 (United States) 24 - xiaohe
   type: vless
-  server: 188.114.97.6
+  server: 188.114.98.0
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -1006,12 +323,12 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?TELEGRAM--MTMVPN--MTMVPN--MTMVPN--MTMVPN?ed=2560
+    path: /?Telegram---Vpney
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 76 - xiaohe
+- name: 🇺🇸 美国 (United States) 25 - xiaohe
   type: vless
-  server: 188.114.97.6
+  server: 188.114.98.0
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -1020,10 +337,10 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart
+    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 77 - xiaohe
+- name: 🇺🇸 美国 (United States) 26 - xiaohe
   type: vless
   server: 104.21.91.244
   port: 443
@@ -1037,35 +354,7 @@ proxies:
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 78 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboran?edfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 79 - xiaohe
-  type: vless
-  server: 172.67.155.65
-  port: 2053
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 80 - xiaohe
+- name: 🇺🇸 美国 (United States) 27 - xiaohe
   type: vless
   server: 172.67.155.65
   port: 8443
@@ -1076,89 +365,10 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /DailyConfigs---DailyConfigs---DailyConfigs?ed=1024
+    path: /
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 81 - xiaohe
-  type: vmess
-  server: us5-1.998998.best
-  port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: server4.9966338.xyz
-  network: ws
-  ws-opts:
-    path: /androirfdsreoightrjh
-    headers:
-      Host: server4.9966338.xyz
-- name: 🇺🇸 美国 (United States) 82 - xiaohe
-  type: vless
-  server: 69.48.201.136
-  port: 30016
-  uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /usserver
-    headers:
-      Host: zoom.us
-- name: 🇺🇸 美国 (United States) 83 - xiaohe
-  type: vmess
-  server: 67.220.95.3
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 84 - xiaohe
-  type: vmess
-  server: 38.91.107.49
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 85 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 86 - xiaohe
-  type: vmess
-  server: cf.090227.xyz
-  port: 443
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vmess.lbw666.dpdns.org
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: vmess.lbw666.dpdns.org
-- name: 🇺🇸 美国 (United States) 87 - xiaohe
+- name: 🇺🇸 美国 (United States) 28 - xiaohe
   type: vless
   server: 188.114.98.0
   port: 443
@@ -1169,26 +379,12 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
+    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigsfp=chrome
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 88 - xiaohe
+- name: 🇺🇸 美国 (United States) 29 - xiaohe
   type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: a.cwvps.eu.org
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-- name: 🇺🇸 美国 (United States) 89 - xiaohe
-  type: vless
-  server: 188.114.98.0
+  server: 104.18.43.174
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -1197,45 +393,10 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
+    path: /?TELEGRAM--v2ray_configs_pools?edfp=chrome
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 90 - xiaohe
-  type: vless
-  server: 172.67.155.65
-  port: 8443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 91 - xiaohe
-  type: ss
-  server: 156.146.38.170
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 92 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 93 - xiaohe
+- name: 🇺🇸 美国 (United States) 30 - xiaohe
   type: vless
   server: 188.114.97.6
   port: 443
@@ -1249,118 +410,7 @@ proxies:
     path: /cart/docs/www/proxyip
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 94 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 95 - xiaohe
-  type: ss
-  server: 156.146.38.169
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 96 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBS
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 97 - xiaohe
-  type: vless
-  server: 172.67.155.65
-  port: 8443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 98 - xiaohe
-  type: vmess
-  server: 169.197.142.22
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 99 - xiaohe
-  type: vless
-  server: 104.18.35.15
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 100 - xiaohe
-  type: vless
-  server: 172.67.155.65
-  port: 8443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 101 - xiaohe
-  type: vmess
-  server: 84.17.41.2
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 102 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 103 - xiaohe
+- name: 🇺🇸 美国 (United States) 31 - xiaohe
   type: vmess
   server: 172.64.229.21
   port: 443
@@ -1376,10 +426,10 @@ proxies:
     path: /ws
     headers:
       Host: vmess.lbw666.dpdns.org
-- name: 🇺🇸 美国 (United States) 104 - xiaohe
+- name: 🇺🇸 美国 (United States) 32 - xiaohe
   type: vless
-  server: 188.114.97.6
-  port: 2053
+  server: 172.67.155.65
+  port: 8443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
@@ -1387,24 +437,89 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 105 - xiaohe
+- name: 🇺🇸 美国 (United States) 33 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: '3'
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 34 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 35 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 36 - xiaohe
   type: ss
-  server: 173.244.56.9
+  server: 173.244.56.6
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇺🇸 美国 (United States) 106 - xiaohe
-  type: ss
-  server: 156.146.38.167
+- name: 🇺🇸 美国 (United States) 37 - xiaohe
+  type: vless
+  server: 188.114.97.6
   port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
-- name: 🇺🇸 美国 (United States) 107 - xiaohe
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---TEHRANARGO
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 38 - xiaohe
+  type: vmess
+  server: 104.17.136.198
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: vmess.lbw666.dpdns.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: 🇺🇸 美国 (United States) 39 - xiaohe
   type: vless
   server: 188.114.98.0
   port: 443
@@ -1415,33 +530,36 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?TELEGRAM--V2ray_confiig?ed=2560
+    path: /cart
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 108 - xiaohe
+- name: 🇺🇸 美国 (United States) 40 - xiaohe
   type: vless
-  server: 146.75.59.186
+  server: 188.114.97.6
   port: 443
-  uuid: eccc053a-7196-47cb-a4b5-f4b8bfd743d9
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: firefox.com
+  servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /
+    path: /?TELEGRAM-TOOTFFARANGI#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
-      Host: copy_az_channel_NUFiLTER_3i.global.ssl.fastly.net.
-- name: 🇺🇸 美国 (United States) 109 - xiaohe
-  type: ss
-  server: 37.19.198.243
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 41 - xiaohe
+  type: vmess
+  server: 84.17.41.2
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-- name: 🇺🇸 美国 (United States) 110 - xiaohe
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 42 - xiaohe
   type: vless
-  server: 104.21.91.244
+  server: 188.114.97.6
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -1453,9 +571,314 @@ proxies:
     path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2560
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 111 - xiaohe
+- name: 🇺🇸 美国 (United States) 43 - xiaohe
   type: vless
-  server: 104.21.91.244
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 44 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?DailyConfigs---DailyConfigs---DailyConfigs?ed=2056
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 45 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 46 - xiaohe
+  type: vmess
+  server: 172.67.167.78
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: v2ray1.dozapp.xyz
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+- name: 🇺🇸 美国 (United States) 47 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--v2ray_configs_pools?ed
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 48 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: '3'
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 49 - xiaohe
+  type: vless
+  server: 172.67.155.65
+  port: 2053
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 50 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 51 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 52 - xiaohe
+  type: ss
+  server: 37.19.198.160
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 53 - xiaohe
+  type: vmess
+  server: 169.197.142.22
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 54 - xiaohe
+  type: ss
+  server: 198.98.53.130
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: eDfN7SODQceIOmIAbtJJtK
+  udp: true
+- name: 🇺🇸 美国 (United States) 55 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---bored_vpn
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 56 - xiaohe
+  type: vless
+  server: 172.67.155.65
+  port: 8443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /DailyConfigs---DailyConfigs---DailyConfigs?ed=1024
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 57 - xiaohe
+  type: vless
+  server: 172.67.155.65
+  port: 2053
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 58 - xiaohe
+  type: vless
+  server: 69.48.201.136
+  port: 30016
+  uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /usserver
+    headers:
+      Host: 69.48.201.136
+- name: 🇺🇸 美国 (United States) 59 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 60 - xiaohe
+  type: ss
+  server: 156.146.38.167
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 61 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 62 - xiaohe
+  type: ss
+  server: 15.204.246.132
+  port: 7307
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+  udp: true
+- name: 🇺🇸 美国 (United States) 63 - xiaohe
+  type: ss
+  server: 37.19.198.243
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 64 - xiaohe
+  type: vless
+  server: 172.67.155.65
+  port: 8443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 65 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--v2ray_configs_pools?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 66 - xiaohe
+  type: ss
+  server: 15.204.247.206
+  port: 4444
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- name: 🇺🇸 美国 (United States) 67 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: Tfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 68 - xiaohe
+  type: vless
+  server: 104.18.43.174
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -1467,10 +890,24 @@ proxies:
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 112 - xiaohe
+- name: 🇺🇸 美国 (United States) 69 - xiaohe
   type: vless
-  server: 188.114.97.6
+  server: 31.77.126.2
   port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇺🇸 美国 (United States) 70 - xiaohe
+  type: vless
+  server: 172.67.155.65
+  port: 8443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
@@ -1478,45 +915,31 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?V2XAY-joinV2XAY-joinV2XAY-joinV2XAY-joinV2XAY-joinV2XAY-joinV2XAY
+    path: /cart/docs/www/proxyip
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 113 - xiaohe
+- name: 🇺🇸 美国 (United States) 71 - xiaohe
   type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  server: 45.138.100.248
+  port: 10443
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 72 - xiaohe
+  type: vless
+  server: 45.138.100.248
+  port: 14430
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+  udp: true
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyipfp=chrome
+    path: /vless
     headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 114 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 115 - xiaohe
-  type: ss
-  server: 103.11.76.248
-  port: 28679
-  cipher: 2022-blake3-aes-128-gcm
-  password: NzJlOTQ5NWYtM2ZkYi00Cg==
-  udp: true
-- name: 🇺🇸 美国 (United States) 116 - xiaohe
+      Host: 45.138.100.248
+- name: 🇺🇸 美国 (United States) 73 - xiaohe
   type: vmess
   server: 67.220.95.3
   port: 18000
@@ -1526,21 +949,119 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 117 - xiaohe
+- name: 🇺🇸 美国 (United States) 74 - xiaohe
   type: vless
-  server: 146.75.59.186
+  server: 188.114.98.0
   port: 443
-  uuid: eccc053a-7196-47cb-a4b5-f4b8bfd743d9
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: firefox.com
+  servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560
     headers:
-      Host: copy_az_channel_NUFiLTER_5i.global.ssl.fastly.net.
-- name: 🇺🇸 美国 (United States) 118 - xiaohe
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 75 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 76 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosaboran?ed
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 77 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 78 - xiaohe
+  type: vless
+  server: 38.107.236.166
+  port: 8443
+  uuid: 48572af1-d091-457b-a86e-4a457e99927f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 3h-unitedstates3.09vpn.com
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: 3h-unitedstates3.09vpn.com
+- name: 🇺🇸 美国 (United States) 79 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBS
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 80 - xiaohe
+  type: vless
+  server: 172.67.155.65
+  port: 2053
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 81 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---bored_vpn
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 82 - xiaohe
   type: vless
   server: 188.114.98.0
   port: 443
@@ -1554,29 +1075,54 @@ proxies:
     path: /?TELEGRAM--V2ray_confiig?ed=2560
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 119 - xiaohe
-  type: ss
-  server: 64.74.163.67
-  port: 18764
-  cipher: aes-128-gcm
-  password: 4efe1af272e7292139b889f6a63ee071
+- name: 🇺🇸 美国 (United States) 83 - xiaohe
+  type: vless
+  server: 172.67.155.65
+  port: 8443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
-- name: 🇺🇸 美国 (United States) 120 - xiaohe
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /DailyConfigs---DailyConfigs---DailyConfigs?ed=1024
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 84 - xiaohe
   type: vmess
-  server: 172.67.187.145
-  port: 80
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  server: 84.17.41.2
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 85 - xiaohe
+  type: vmess
+  server: 67.220.95.3
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 86 - xiaohe
+  type: vless
+  server: uspanel.unixzone.us
+  port: 30016
+  uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
+  udp: true
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /ws
+    path: /usserver
     headers:
-      Host: vmess.lbw666.dpdns.org
-- name: 🇺🇸 美国 (United States) 121 - xiaohe
+      Host: uspanel.unixzone.us
+- name: 🇺🇸 美国 (United States) 87 - xiaohe
   type: vless
   server: 188.114.98.0
   port: 443
@@ -1587,12 +1133,22 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
+    path: /?Telegram---mehrosaboran
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 122 - xiaohe
+- name: 🇺🇸 美国 (United States) 88 - xiaohe
+  type: vmess
+  server: 67.220.85.46
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 89 - xiaohe
   type: vless
-  server: 104.21.91.244
+  server: 188.114.97.6
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -1601,16 +1157,423 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
+    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBS
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 123 - xiaohe
+- name: 🇺🇸 美国 (United States) 90 - xiaohe
+  type: vmess
+  server: 67.220.85.46
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 91 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 92 - xiaohe
+  type: vless
+  server: cf.877774.xyz
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /+
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 93 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 94 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---V2ray_confiig?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 95 - xiaohe
+  type: vmess
+  server: 84.17.41.2
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 96 - xiaohe
+  type: vless
+  server: cf.090227.xyz
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 97 - xiaohe
+  type: ss
+  server: 104.36.66.212
+  port: 443
+  cipher: aes-256-gcm
+  password: bwLa2026x9KpQzRt7Nv
+  udp: true
+- name: 🇺🇸 美国 (United States) 98 - xiaohe
+  type: ss
+  server: 156.146.38.169
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 99 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---TEHRANARGO
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 100 - xiaohe
+  type: vless
+  server: 172.67.155.65
+  port: 2053
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 101 - xiaohe
+  type: vmess
+  server: 38.110.1.246
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 102 - xiaohe
+  type: vmess
+  server: 38.110.1.246
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 103 - xiaohe
+  type: ss
+  server: 15.204.247.124
+  port: 2375
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+  udp: true
+- name: 🇺🇸 美国 (United States) 104 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: T
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 105 - xiaohe
+  type: ss
+  server: 103.11.76.248
+  port: 28679
+  cipher: 2022-blake3-aes-128-gcm
+  password: NzJlOTQ5NWYtM2ZkYi00Cg==
+  udp: true
+- name: 🇺🇸 美国 (United States) 106 - xiaohe
+  type: vless
+  server: 172.67.155.65
+  port: 8443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 107 - xiaohe
+  type: vless
+  server: 172.67.155.65
+  port: 8443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2048
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 108 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 109 - xiaohe
   type: ss
   server: 64.74.163.69
   port: 18766
   cipher: aes-128-gcm
   password: 4efe1af272e7292139b889f6a63ee071
   udp: true
+- name: 🇺🇸 美国 (United States) 110 - xiaohe
+  type: vless
+  server: 172.67.155.65
+  port: 8443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 111 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---V2ray_confiig?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 112 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 113 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosaboran
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 114 - xiaohe
+  type: ss
+  server: 156.146.38.170
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 115 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosaboran?ed
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 116 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 117 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--i10VPN?ed
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 118 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 119 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 120 - xiaohe
+  type: vless
+  server: 172.67.155.65
+  port: 2053
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 121 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 122 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: '3'
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 123 - xiaohe
+  type: vmess
+  server: 169.197.142.22
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇺🇸 美国 (United States) 124 - xiaohe
   type: vless
   server: 188.114.97.6
@@ -1626,37 +1589,6 @@ proxies:
     headers:
       Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 125 - xiaohe
-  type: ss
-  server: 15.204.247.175
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: 🇺🇸 美国 (United States) 126 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 127 - xiaohe
-  type: vmess
-  server: 169.197.142.22
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 128 - xiaohe
   type: vless
   server: 104.18.43.174
   port: 443
@@ -1667,26 +1599,12 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?TELEGRAM--v2ray_configs_pools?ed
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 129 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?@EVAY_VPN
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 130 - xiaohe
+- name: 🇺🇸 美国 (United States) 126 - xiaohe
   type: vmess
-  server: 38.110.1.246
+  server: 38.91.107.49
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -1694,57 +1612,9 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 131 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyipfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 132 - xiaohe
-  type: ss
-  server: 15.204.246.132
-  port: 7307
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-  udp: true
-- name: 🇺🇸 美国 (United States) 133 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 134 - xiaohe
-  type: vless
-  server: 3h-unitedstates1.09vpn.com
-  port: 80
-  uuid: 18cf8db1-9f86-43f7-baa0-382efb7f2dfa
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: 3h-unitedstates1.09vpn.com
-- name: 🇺🇸 美国 (United States) 135 - xiaohe
+- name: 🇺🇸 美国 (United States) 127 - xiaohe
   type: vmess
-  server: 67.220.95.3
+  server: 38.91.107.49
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -1752,103 +1622,9 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 136 - xiaohe
-  type: vless
-  server: 172.67.155.65
-  port: 8443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 137 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MTMVPN--MTMVPN--MTMVPN--MTMVPN?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 138 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--v2ray_configs_pools?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 139 - xiaohe
-  type: vmess
-  server: 67.220.85.46
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 140 - xiaohe
+- name: 🇺🇸 美国 (United States) 128 - xiaohe
   type: vless
   server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 141 - xiaohe
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 142 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 143 - xiaohe
-  type: vless
-  server: 188.114.98.0
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -1860,7 +1636,7 @@ proxies:
     path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigsfp=chrome
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 144 - xiaohe
+- name: 🇺🇸 美国 (United States) 129 - xiaohe
   type: vless
   server: 188.114.98.0
   port: 443
@@ -1871,12 +1647,12 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    path: /?Telegram---TEHRANARGO
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 145 - xiaohe
+- name: 🇺🇸 美国 (United States) 130 - xiaohe
   type: vless
-  server: 188.114.97.6
+  server: 188.114.98.0
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -1885,10 +1661,10 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560fp=chrome
+    path: /?TELEGRAM--V2ray_confiig?ed=2560
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 146 - xiaohe
+- name: 🇺🇸 美国 (United States) 131 - xiaohe
   type: vless
   server: 188.114.98.0
   port: 443
@@ -1902,40 +1678,7 @@ proxies:
     path: /?Telegram---mehrosaboranfp=chrome
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 147 - xiaohe
-  type: ss
-  server: 156.146.38.167
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 148 - xiaohe
-  type: vless
-  server: 208.84.100.209
-  port: 2112
-  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: p8pUe3hwND5rhAti-yRQ5qMaIkNdhxOV1K1jpbtJlEQ
-  servername: play.google.com
-  client-fingerprint: chrome
-- name: 🇺🇸 美国 (United States) 149 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 150 - xiaohe
+- name: 🇺🇸 美国 (United States) 132 - xiaohe
   type: vless
   server: 188.114.97.6
   port: 443
@@ -1946,17 +1689,38 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBS
+    path: /?Telegram---TEHRANARGOfp=chrome
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 151 - xiaohe
-  type: ss
-  server: 156.146.38.168
+- name: 🇺🇸 美国 (United States) 133 - xiaohe
+  type: vless
+  server: cf.090227.xyz
   port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
-- name: 🇺🇸 美国 (United States) 152 - xiaohe
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 134 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---V2ray_confiig?edfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 135 - xiaohe
   type: vless
   server: 188.114.98.0
   port: 443
@@ -1967,12 +1731,32 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: T
+    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigsfp=chrome
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 153 - xiaohe
+- name: 🇺🇸 美国 (United States) 136 - xiaohe
+  type: vmess
+  server: 84.17.41.2
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 137 - xiaohe
+  type: vmess
+  server: 67.220.85.46
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 138 - xiaohe
   type: vless
-  server: 104.21.91.244
+  server: 188.114.97.6
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -1981,10 +1765,10 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+    path: /?TELEGRAM-TOOTFFARANGI
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 154 - xiaohe
+- name: 🇺🇸 美国 (United States) 139 - xiaohe
   type: vless
   server: 172.67.155.65
   port: 8443
@@ -1998,9 +1782,9 @@ proxies:
     path: /cart/docs/www/proxyip
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 155 - xiaohe
+- name: 🇺🇸 美国 (United States) 140 - xiaohe
   type: vmess
-  server: 38.110.1.246
+  server: 38.91.107.49
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -2008,6 +1792,205 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 141 - xiaohe
+  type: vless
+  server: cf.090227.xyz
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 142 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 143 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?V2XAY-joinV
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 144 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 145 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--i10VPN?edfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 146 - xiaohe
+  type: ss
+  server: 37.19.198.244
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 147 - xiaohe
+  type: vless
+  server: 104.18.43.174
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?edfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 148 - xiaohe
+  type: vmess
+  server: node8.liudonghoe.com
+  port: 443
+  uuid: 47050e4e-965d-41ca-976d-73c1f11e6905
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /hoe8
+    headers:
+      Host: ''
+- name: 🇺🇸 美国 (United States) 149 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyipfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 150 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---V2ray_confiig?ed
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 151 - xiaohe
+  type: vmess
+  server: 67.220.85.46
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 152 - xiaohe
+  type: vmess
+  server: 84.17.41.2
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 153 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---bored_vpnfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 154 - xiaohe
+  type: vmess
+  server: cf.0sm.com
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: vmess.lbw666.dpdns.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: 🇺🇸 美国 (United States) 155 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 156 - xiaohe
   type: vless
   server: 188.114.97.6
@@ -2024,7 +2007,7 @@ proxies:
       Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 157 - xiaohe
   type: vless
-  server: 188.114.97.6
+  server: 104.21.91.244
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -2033,54 +2016,42 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip
+    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
     headers:
       Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 158 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  type: vmess
+  server: 67.220.85.46
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /p=chrome
-    headers:
-      Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 159 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  type: vmess
+  server: 38.91.107.49
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 160 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  type: vmess
+  server: 38.110.1.246
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
-    headers:
-      Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 161 - xiaohe
   type: vless
-  server: 188.114.97.6
+  server: 104.21.91.244
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -2089,27 +2060,20 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
+    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
     headers:
       Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 162 - xiaohe
-  type: vless
-  server: 8.35.211.236
+  type: ss
+  server: 173.244.56.9
   port: 443
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: kkkk-bq7.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: kkkk-bq7.pages.dev
 - name: 🇺🇸 美国 (United States) 163 - xiaohe
   type: vless
-  server: 172.67.155.65
-  port: 8443
+  server: 188.114.98.0
+  port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
@@ -2121,19 +2085,15 @@ proxies:
     headers:
       Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 164 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  type: vmess
+  server: 84.17.41.2
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--i10VPN?edfp=chrome
-    headers:
-      Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 165 - xiaohe
   type: vless
   server: 188.114.98.0
@@ -2145,7 +2105,7 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?Telegram---bored_vpn
+    path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
     headers:
       Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 166 - xiaohe
@@ -2159,10 +2119,65 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?Telegram---mehrosaboran
+    path: /?TELEGRAM--MTMVPN--MTMVPN--MTMVPN--MTMVPN?ed=2560
     headers:
       Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 167 - xiaohe
+  type: vless
+  server: 69.48.201.136
+  port: 30016
+  uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /usserver
+    headers:
+      Host: zoom.us
+- name: 🇺🇸 美国 (United States) 168 - xiaohe
+  type: ss
+  server: 15.204.247.175
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
+- name: 🇺🇸 美国 (United States) 169 - xiaohe
+  type: vless
+  server: 172.64.144.82
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 170 - xiaohe
+  type: vless
+  server: 45.138.100.248
+  port: 14430
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 45.138.100.248
+- name: 🇺🇸 美国 (United States) 171 - xiaohe
+  type: vless
+  server: 45.138.100.248
+  port: 10443
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 172 - xiaohe
   type: vless
   server: 188.114.98.0
   port: 443
@@ -2173,13 +2188,28 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?TELEGRAM--v2ray_configs_pools?ed=2560
+    path: /?Telegram---bored_vpn
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 168 - xiaohe
+- name: 🇺🇸 美国 (United States) 173 - xiaohe
+  type: vmess
+  server: 129.146.77.248
+  port: 39495
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: 129.146.77.248
+- name: 🇺🇸 美国 (United States) 174 - xiaohe
   type: vless
   server: 188.114.97.6
-  port: 443
+  port: 2053
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
@@ -2187,129 +2217,33 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?Telegram---TEHRANARGO
+    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---fp=chrome
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 169 - xiaohe
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 170 - xiaohe
+- name: 🇺🇸 美国 (United States) 175 - xiaohe
   type: ss
   server: 156.146.38.169
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇺🇸 美国 (United States) 171 - xiaohe
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MTMVPN--MTMVPN--MTMVPN--MTMVPN?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 172 - xiaohe
-  type: vless
-  server: 181.214.152.137
-  port: 51104
-  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 5XPuEa7CkCbN4W1iJH6P0ogGhODHkKUDEhmTosBQASQ
-  servername: apple.com
-  client-fingerprint: chrome
-- name: 🇺🇸 美国 (United States) 173 - xiaohe
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: eccc053a-7196-47cb-a4b5-f4b8bfd743d9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: firefox.com
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI
-    headers:
-      Host: copy_az_channel_NUFiLTER_5i.global.ssl.fastly.net.
-- name: 🇺🇸 美国 (United States) 174 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 175 - xiaohe
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: eccc053a-7196-47cb-a4b5-f4b8bfd743d9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: firefox.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: copy_az_channel_NUFiLTER_5i.global.ssl.fastly.net.
 - name: 🇺🇸 美国 (United States) 176 - xiaohe
   type: vless
-  server: 188.114.97.6
+  server: 104.17.189.78
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lucasjow.us.ci
+  servername: a.cwvps.eu.org
   network: ws
   ws-opts:
-    path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
+    path: /ws
     headers:
-      Host: lucasjow.us.ci
+      Host: a.cwvps.eu.org
 - name: 🇺🇸 美国 (United States) 177 - xiaohe
   type: vless
-  server: 38.107.236.166
-  port: 8443
-  uuid: 48572af1-d091-457b-a86e-4a457e99927f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 3h-unitedstates3.09vpn.com
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: 3h-unitedstates3.09vpn.com
-- name: 🇺🇸 美国 (United States) 178 - xiaohe
-  type: vless
-  server: 104.18.43.174
+  server: 188.114.98.0
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -2321,6 +2255,13 @@ proxies:
     path: /
     headers:
       Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 178 - xiaohe
+  type: ss
+  server: 156.146.38.168
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
 - name: 🇺🇸 美国 (United States) 179 - xiaohe
   type: vless
   server: 188.114.97.6
@@ -2332,24 +2273,10 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI
+    path: /?Telegram---mehrosaboran
     headers:
       Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 180 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--V2ray_confiig?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 181 - xiaohe
   type: vless
   server: 188.114.98.0
   port: 443
@@ -2360,12 +2287,26 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?Telegram---Vpney
+    path: '3'
     headers:
       Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 181 - xiaohe
+  type: vless
+  server: 172.66.0.162
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
 - name: 🇺🇸 美国 (United States) 182 - xiaohe
   type: vless
-  server: 188.114.97.6
+  server: 172.64.144.82
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -2378,16 +2319,9 @@ proxies:
     headers:
       Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 183 - xiaohe
-  type: ss
-  server: 216.105.168.18
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: hCCWOcIsK5wrFz4OX70rWf
-  udp: true
-- name: 🇺🇸 美国 (United States) 184 - xiaohe
   type: vless
-  server: 172.67.155.65
-  port: 8443
+  server: 188.114.97.6
+  port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
@@ -2395,26 +2329,36 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /
+    path: /?@EVAY_VPN
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 184 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosaboran
     headers:
       Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 185 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  type: vmess
+  server: 38.91.107.49
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 186 - xiaohe
   type: vless
-  server: 188.114.98.0
+  server: 104.21.91.244
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -2423,7 +2367,7 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
     headers:
       Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 187 - xiaohe
@@ -2437,13 +2381,13 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+    path: /?Telegram---mehrosaboranfp=chrome
     headers:
       Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 188 - xiaohe
   type: vless
-  server: 172.67.155.65
-  port: 8443
+  server: 188.114.97.6
+  port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
@@ -2451,209 +2395,12 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048
+    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
     headers:
       Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 189 - xiaohe
-  type: vmess
-  server: 67.220.85.46
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 190 - xiaohe
   type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: '3'
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 191 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 192 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 193 - xiaohe
-  type: vless
-  server: 172.67.155.65
-  port: 8443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed=2048
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 194 - xiaohe
-  type: vless
-  server: 31.77.126.2
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇺🇸 美国 (United States) 195 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboranfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 196 - xiaohe
-  type: vmess
-  server: 172.67.167.78
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: v2ray1.dozapp.xyz
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-- name: 🇺🇸 美国 (United States) 197 - xiaohe
-  type: ss
-  server: 37.19.198.160
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 198 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: Tfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 199 - xiaohe
-  type: vmess
-  server: 129.146.143.80
-  port: 48111
-  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 200 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 201 - xiaohe
-  type: vless
-  server: 172.67.155.65
-  port: 2053
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 202 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: 3fp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 203 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 204 - xiaohe
-  type: vless
-  server: cf.877774.xyz
+  server: 172.64.144.82
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -2665,22 +2412,44 @@ proxies:
     path: /+
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 205 - xiaohe
+- name: 🇺🇸 美国 (United States) 190 - xiaohe
   type: vless
-  server: uspanel.unixzone.us
-  port: 30016
-  uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /usserver
+    path: /?Telegram---bored_vpn
     headers:
-      Host: uspanel.unixzone.us
-- name: 🇺🇸 美国 (United States) 206 - xiaohe
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 191 - xiaohe
+  type: ss
+  server: 156.146.38.167
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 192 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2048
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 193 - xiaohe
   type: vmess
-  server: 67.220.85.46
+  server: 38.110.1.246
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -2688,9 +2457,9 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 207 - xiaohe
+- name: 🇺🇸 美国 (United States) 194 - xiaohe
   type: vless
-  server: 188.114.97.6
+  server: 188.114.98.0
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -2699,12 +2468,19 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 208 - xiaohe
+- name: 🇺🇸 美国 (United States) 195 - xiaohe
+  type: ss
+  server: 15.204.233.41
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: 🇺🇸 美国 (United States) 196 - xiaohe
   type: vless
-  server: 104.21.91.244
+  server: 188.114.98.0
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -2713,10 +2489,59 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 209 - xiaohe
+- name: 🇺🇸 美国 (United States) 197 - xiaohe
+  type: vless
+  server: 172.67.155.65
+  port: 8443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip?ed#Telegram---mehrosaboran
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 198 - xiaohe
+  type: ss
+  server: 15.204.246.107
+  port: 8888
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇺🇸 美国 (United States) 199 - xiaohe
+  type: vless
+  server: 172.67.155.65
+  port: 8443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 200 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 201 - xiaohe
   type: vless
   server: 188.114.98.0
   port: 443
@@ -2730,65 +2555,9 @@ proxies:
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 210 - xiaohe
-  type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: a.cwvps.eu.org
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-- name: 🇺🇸 美国 (United States) 211 - xiaohe
-  type: vless
-  server: 104.16.10.135
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: a.cwvps.eu.org
-  network: ws
-  ws-opts:
-    path: /ws#/?----?ed=512
-    headers:
-      Host: a.cwvps.eu.org
-- name: 🇺🇸 美国 (United States) 212 - xiaohe
-  type: vless
-  server: 172.67.155.65
-  port: 8443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 213 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---bored_vpn
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 214 - xiaohe
+- name: 🇺🇸 美国 (United States) 202 - xiaohe
   type: vmess
-  server: 172.66.203.67
+  server: cf.877771.xyz
   port: 443
   uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   alterId: 0
@@ -2802,9 +2571,9 @@ proxies:
     path: /ws
     headers:
       Host: vmess.lbw666.dpdns.org
-- name: 🇺🇸 美国 (United States) 215 - xiaohe
+- name: 🇺🇸 美国 (United States) 203 - xiaohe
   type: vless
-  server: 188.114.97.6
+  server: 188.114.98.0
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -2813,10 +2582,32 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?Telegram---TEHRANARGOfp=chrome
+    path: /cart
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 216 - xiaohe
+- name: 🇺🇸 美国 (United States) 204 - xiaohe
+  type: vmess
+  server: 67.220.85.46
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 205 - xiaohe
+  type: vless
+  server: 181.214.152.137
+  port: 51104
+  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 5XPuEa7CkCbN4W1iJH6P0ogGhODHkKUDEhmTosBQASQ
+  servername: apple.com
+  client-fingerprint: firefox
+- name: 🇺🇸 美国 (United States) 206 - xiaohe
   type: vless
   server: 188.114.97.6
   port: 443
@@ -2830,23 +2621,17 @@ proxies:
     path: /?Telegram---V2ray_confiig?ed
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 217 - xiaohe
+- name: 🇺🇸 美国 (United States) 207 - xiaohe
   type: vmess
-  server: 172.66.203.67
-  port: 443
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  server: 84.17.41.2
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: vmess.lbw666.dpdns.org
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: vmess.lbw666.dpdns.org
-- name: 🇺🇸 美国 (United States) 218 - xiaohe
+- name: 🇺🇸 美国 (United States) 208 - xiaohe
   type: vless
   server: 188.114.97.6
   port: 443
@@ -2857,75 +2642,26 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
+    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 219 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--i10VPN?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 220 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 221 - xiaohe
-  type: ss
-  server: 37.19.198.236
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 222 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---bored_vpnfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 223 - xiaohe
+- name: 🇺🇸 美国 (United States) 209 - xiaohe
   type: vmess
-  server: node8.liudonghoe.com
+  server: us16-4.998998.best
   port: 443
-  uuid: 47050e4e-965d-41ca-976d-73c1f11e6905
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: node8.liudonghoe.com
+  servername: server1.9966338.xyz
   network: ws
   ws-opts:
-    path: /hoe8
+    path: /efrsdioy98wert
     headers:
-      Host: node8.liudonghoe.com
-- name: 🇺🇸 美国 (United States) 224 - xiaohe
+      Host: server1.9966338.xyz
+- name: 🇺🇸 美国 (United States) 210 - xiaohe
   type: vless
   server: 188.114.97.6
   port: 443
@@ -2939,315 +2675,7 @@ proxies:
     path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBSfp=chrome
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 225 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigsfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 226 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: '3'
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 227 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--v2ray_configs_pools?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 228 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 229 - xiaohe
-  type: vless
-  server: 104.18.35.15
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 230 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 231 - xiaohe
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 232 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 233 - xiaohe
-  type: ss
-  server: 173.244.56.6
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 234 - xiaohe
-  type: ss
-  server: 104.36.66.212
-  port: 443
-  cipher: aes-256-gcm
-  password: bwLa2026x9KpQzRt7Nv
-  udp: true
-- name: 🇺🇸 美国 (United States) 235 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 236 - xiaohe
-  type: vless
-  server: 104.18.43.174
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 237 - xiaohe
-  type: vless
-  server: 104.18.43.174
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 238 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 239 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--V2ray_confiig?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 240 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 241 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 242 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 243 - xiaohe
-  type: vless
-  server: 104.18.43.174
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?edfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 244 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---V2ray_confiig?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 245 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboran
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 246 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 247 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 248 - xiaohe
+- name: 🇺🇸 美国 (United States) 211 - xiaohe
   type: vless
   server: 188.114.98.0
   port: 443
@@ -3261,7 +2689,122 @@ proxies:
     path: /?TELEGRAM-TOOTFFARANGI
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 249 - xiaohe
+- name: 🇺🇸 美国 (United States) 212 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBSfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 213 - xiaohe
+  type: ss
+  server: 37.19.198.236
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 214 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MTMVPN--MTMVPN--MTMVPN--MTMVPN?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 215 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 216 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 217 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 218 - xiaohe
+  type: vless
+  server: 104.21.91.244
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 219 - xiaohe
+  type: vmess
+  server: 38.110.1.246
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 220 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---V2ray_confiig?ed
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 221 - xiaohe
   type: vless
   server: cf.877774.xyz
   port: 443
@@ -3275,41 +2818,7 @@ proxies:
     path: /
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 250 - xiaohe
-  type: vmess
-  server: 67.220.85.46
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 251 - xiaohe
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?edfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 252 - xiaohe
-  type: vmess
-  server: 38.91.107.49
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 253 - xiaohe
+- name: 🇺🇸 美国 (United States) 222 - xiaohe
   type: vless
   server: 188.114.98.0
   port: 443
@@ -3320,9 +2829,57 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: '%25'
+    path: /cart
     headers:
       Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 223 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---bored_vpn?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 224 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 225 - xiaohe
+  type: vless
+  server: 181.214.152.137
+  port: 51104
+  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 5XPuEa7CkCbN4W1iJH6P0ogGhODHkKUDEhmTosBQASQ
+  servername: apple.com
+  client-fingerprint: chrome
+- name: 🇺🇸 美国 (United States) 226 - xiaohe
+  type: vless
+  server: 45.138.100.248
+  port: 10443
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -3554,33 +3111,6 @@ proxy-groups:
   - 🇺🇸 美国 (United States) 224 - xiaohe
   - 🇺🇸 美国 (United States) 225 - xiaohe
   - 🇺🇸 美国 (United States) 226 - xiaohe
-  - 🇺🇸 美国 (United States) 227 - xiaohe
-  - 🇺🇸 美国 (United States) 228 - xiaohe
-  - 🇺🇸 美国 (United States) 229 - xiaohe
-  - 🇺🇸 美国 (United States) 230 - xiaohe
-  - 🇺🇸 美国 (United States) 231 - xiaohe
-  - 🇺🇸 美国 (United States) 232 - xiaohe
-  - 🇺🇸 美国 (United States) 233 - xiaohe
-  - 🇺🇸 美国 (United States) 234 - xiaohe
-  - 🇺🇸 美国 (United States) 235 - xiaohe
-  - 🇺🇸 美国 (United States) 236 - xiaohe
-  - 🇺🇸 美国 (United States) 237 - xiaohe
-  - 🇺🇸 美国 (United States) 238 - xiaohe
-  - 🇺🇸 美国 (United States) 239 - xiaohe
-  - 🇺🇸 美国 (United States) 240 - xiaohe
-  - 🇺🇸 美国 (United States) 241 - xiaohe
-  - 🇺🇸 美国 (United States) 242 - xiaohe
-  - 🇺🇸 美国 (United States) 243 - xiaohe
-  - 🇺🇸 美国 (United States) 244 - xiaohe
-  - 🇺🇸 美国 (United States) 245 - xiaohe
-  - 🇺🇸 美国 (United States) 246 - xiaohe
-  - 🇺🇸 美国 (United States) 247 - xiaohe
-  - 🇺🇸 美国 (United States) 248 - xiaohe
-  - 🇺🇸 美国 (United States) 249 - xiaohe
-  - 🇺🇸 美国 (United States) 250 - xiaohe
-  - 🇺🇸 美国 (United States) 251 - xiaohe
-  - 🇺🇸 美国 (United States) 252 - xiaohe
-  - 🇺🇸 美国 (United States) 253 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -3812,32 +3342,5 @@ proxy-groups:
   - 🇺🇸 美国 (United States) 224 - xiaohe
   - 🇺🇸 美国 (United States) 225 - xiaohe
   - 🇺🇸 美国 (United States) 226 - xiaohe
-  - 🇺🇸 美国 (United States) 227 - xiaohe
-  - 🇺🇸 美国 (United States) 228 - xiaohe
-  - 🇺🇸 美国 (United States) 229 - xiaohe
-  - 🇺🇸 美国 (United States) 230 - xiaohe
-  - 🇺🇸 美国 (United States) 231 - xiaohe
-  - 🇺🇸 美国 (United States) 232 - xiaohe
-  - 🇺🇸 美国 (United States) 233 - xiaohe
-  - 🇺🇸 美国 (United States) 234 - xiaohe
-  - 🇺🇸 美国 (United States) 235 - xiaohe
-  - 🇺🇸 美国 (United States) 236 - xiaohe
-  - 🇺🇸 美国 (United States) 237 - xiaohe
-  - 🇺🇸 美国 (United States) 238 - xiaohe
-  - 🇺🇸 美国 (United States) 239 - xiaohe
-  - 🇺🇸 美国 (United States) 240 - xiaohe
-  - 🇺🇸 美国 (United States) 241 - xiaohe
-  - 🇺🇸 美国 (United States) 242 - xiaohe
-  - 🇺🇸 美国 (United States) 243 - xiaohe
-  - 🇺🇸 美国 (United States) 244 - xiaohe
-  - 🇺🇸 美国 (United States) 245 - xiaohe
-  - 🇺🇸 美国 (United States) 246 - xiaohe
-  - 🇺🇸 美国 (United States) 247 - xiaohe
-  - 🇺🇸 美国 (United States) 248 - xiaohe
-  - 🇺🇸 美国 (United States) 249 - xiaohe
-  - 🇺🇸 美国 (United States) 250 - xiaohe
-  - 🇺🇸 美国 (United States) 251 - xiaohe
-  - 🇺🇸 美国 (United States) 252 - xiaohe
-  - 🇺🇸 美国 (United States) 253 - xiaohe
 rules:
 - MATCH,PROXIES

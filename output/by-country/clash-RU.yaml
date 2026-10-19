@@ -11,33 +11,17 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: MYkM/b5ww6KhyHjBKB6OZifqzcXEnDT2jDIBWywYAws=
   udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  type: vless
-  server: 185.141.227.223
-  port: 443
-  uuid: c720cb74-4c84-4fce-b8ae-637dbaa16199
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: z1q3pv4g78.rucdncomp.pro
-  network: ws
-  ws-opts:
-    path: /useraction/events/b892639b7195/
-    headers:
-      Host: z1q3pv4g78.rucdncomp.pro
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
 rules:
 - MATCH,PROXIES

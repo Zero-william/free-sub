@@ -20,65 +20,81 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 02 - xiaohe
   type: vless
-  server: 43.167.232.174
+  server: 104.16.10.234
   port: 443
-  uuid: 0fd46529-707f-4d33-899b-598f5f4acffa
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: hJIfTUp7nQckx08yoBSkaaEsPdZmM054HmbYNKK4sBI
-  servername: www.microsoft.com
-  client-fingerprint: ios
-- name: 🇯🇵 日本 (Japan) 03 - xiaohe
-  type: ss
-  server: 149.22.87.241
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 04 - xiaohe
-  type: vless
-  server: 172.64.144.82
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
+    path: /tyxyws
     headers:
-      Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 05 - xiaohe
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 03 - xiaohe
+  type: vless
+  server: 104.16.10.48
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 04 - xiaohe
   type: ss
   server: 154.36.158.197
   port: 8388
   cipher: aes-256-gcm
   password: BeaUf9c0AEWH40Pu
   udp: true
-- name: 🇯🇵 日本 (Japan) 06 - xiaohe
+- name: 🇯🇵 日本 (Japan) 05 - xiaohe
   type: vless
-  server: 188.114.98.0
+  server: 104.16.111.102
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lucasjow.us.ci
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
+    path: /tyxyws
     headers:
-      Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 07 - xiaohe
-  type: ss
-  server: 84.247.155.196
-  port: 80
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 06 - xiaohe
+  type: vless
+  server: 104.21.34.106
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 07 - xiaohe
+  type: vless
+  server: 104.18.37.127
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 08 - xiaohe
   type: vless
   server: 104.21.33.59
@@ -95,66 +111,7 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 09 - xiaohe
   type: vless
-  server: 43.167.232.174
-  port: 443
-  uuid: 0fd46529-707f-4d33-899b-598f5f4acffa
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: hJIfTUp7nQckx08yoBSkaaEsPdZmM054HmbYNKK4sBI
-  servername: www.microsoft.com
-  client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 10 - xiaohe
-  type: ss
-  server: 149.22.87.204
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 11 - xiaohe
-  type: vless
-  server: 43.167.232.174
-  port: 443
-  uuid: 0fd46529-707f-4d33-899b-598f5f4acffa
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: hJIfTUp7nQckx08yoBSkaaEsPdZmM054HmbYNKK4sBI
-  servername: www.microsoft.com
-  client-fingerprint: random
-- name: 🇯🇵 日本 (Japan) 12 - xiaohe
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---pirozi_ArGaP
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 13 - xiaohe
-  type: ss
-  server: 154.36.158.197
-  port: 8388
-  cipher: aes-256-gcm
-  password: BeaUf9c0AEWH40Pu
-  udp: true
-- name: 🇯🇵 日本 (Japan) 14 - xiaohe
-  type: ss
-  server: 191.223.221.53
-  port: 8388
-  cipher: aes-256-gcm
-  password: JuD6MNgtX3nVpCzFzXYVYjDTZ7nsmaTv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 15 - xiaohe
-  type: vless
-  server: 104.19.48.107
+  server: 104.19.33.237
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -166,211 +123,28 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 16 - xiaohe
+- name: 🇯🇵 日本 (Japan) 10 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇯🇵 日本 (Japan) 11 - xiaohe
   type: ss
   server: 149.22.87.240
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇯🇵 日本 (Japan) 17 - xiaohe
-  type: vless
-  server: 104.16.10.104
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 18 - xiaohe
-  type: vless
-  server: platform103.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform103
-    headers:
-      Host: platform103.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 19 - xiaohe
-  type: vless
-  server: 130.94.67.180
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform117
-    headers:
-      Host: platform117.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 20 - xiaohe
-  type: vless
-  server: platform118.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform118
-    headers:
-      Host: platform118.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 21 - xiaohe
-  type: vless
-  server: platform117.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform117
-    headers:
-      Host: platform117.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 22 - xiaohe
-  type: vless
-  server: platform117.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform117
-    headers:
-      Host: platform117.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 23 - xiaohe
-  type: vless
-  server: 130.94.67.40
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform118
-    headers:
-      Host: 130.94.67.40
-- name: 🇯🇵 日本 (Japan) 24 - xiaohe
-  type: vless
-  server: platform115.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform115
-    headers:
-      Host: '%5B'
-- name: 🇯🇵 日本 (Japan) 25 - xiaohe
-  type: vless
-  server: b2n.ir
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---MTMVPN---MTMVPN---MTMVPN---MTMVPN
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 26 - xiaohe
-  type: vless
-  server: platform103.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform103
-    headers:
-      Host: platform103.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 27 - xiaohe
-  type: vless
-  server: platform103.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform103
-    headers:
-      Host: platform103.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 28 - xiaohe
-  type: vless
-  server: 130.94.67.50
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform113
-    headers:
-      Host: platform113.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 29 - xiaohe
-  type: vless
-  server: platform102.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform102
-    headers:
-      Host: platform102.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 30 - xiaohe
-  type: vless
-  server: platform101.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform101
-    headers:
-      Host: platform101.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 31 - xiaohe
-  type: vless
-  server: 130.94.67.50
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform113
-    headers:
-      Host: 130.94.67.50
-- name: 🇯🇵 日本 (Japan) 32 - xiaohe
+- name: 🇯🇵 日本 (Japan) 12 - xiaohe
   type: vless
   server: 104.16.111.102
   port: 443
@@ -384,9 +158,38 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 33 - xiaohe
+- name: 🇯🇵 日本 (Japan) 13 - xiaohe
   type: vless
   server: 188.114.97.6
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 14 - xiaohe
+  type: vmess
+  server: 168.138.43.75
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: none
+- name: 🇯🇵 日本 (Japan) 15 - xiaohe
+  type: vless
+  server: 104.21.93.182
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -395,23 +198,39 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
     headers:
       Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 34 - xiaohe
-  type: vless
-  server: platform108.golnamakcert.top
+- name: 🇯🇵 日本 (Japan) 16 - xiaohe
+  type: vmess
+  server: 168.138.43.75
   port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /platform108
+    path: /cctv13.m3u8
     headers:
-      Host: platform108.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 35 - xiaohe
+      Host: jp01.a0a.xyz
+- name: 🇯🇵 日本 (Japan) 17 - xiaohe
+  type: ss
+  server: 149.22.87.204
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 18 - xiaohe
+  type: ss
+  server: 84.247.155.196
+  port: 80
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇯🇵 日本 (Japan) 19 - xiaohe
   type: vless
   server: 104.17.50.227
   port: 443
@@ -425,61 +244,28 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 36 - xiaohe
-  type: vless
-  server: 188.114.97.6
+- name: 🇯🇵 日本 (Japan) 20 - xiaohe
+  type: ss
+  server: 84.247.155.196
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇯🇵 日本 (Japan) 21 - xiaohe
+  type: vless
+  server: 104.19.48.107
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lucasjow.us.ci
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#
+    path: /tyxyws
     headers:
-      Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 37 - xiaohe
-  type: vless
-  server: 130.94.65.201
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform115
-    headers:
-      Host: 130.94.65.201
-- name: 🇯🇵 日本 (Japan) 38 - xiaohe
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---mehrosaboran
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 39 - xiaohe
-  type: vless
-  server: platform115.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform115
-    headers:
-      Host: platform115.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 40 - xiaohe
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 22 - xiaohe
   type: vless
   server: 104.16.10.63
   port: 443
@@ -493,166 +279,32 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 41 - xiaohe
-  type: vless
-  server: platform115.golnamakcert.top
+- name: 🇯🇵 日本 (Japan) 23 - xiaohe
+  type: vmess
+  server: 168.138.43.75
   port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /platform115
+    path: /cctv13.m3u8
     headers:
-      Host: platform115.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 42 - xiaohe
+      Host: none
+- name: 🇯🇵 日本 (Japan) 24 - xiaohe
   type: vless
-  server: platform115.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform115
-    headers:
-      Host: '%5B%27platform115.halalkhor.info%27%5D'
-- name: 🇯🇵 日本 (Japan) 43 - xiaohe
-  type: vless
-  server: platform115.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform115
-    headers:
-      Host: platform115.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 44 - xiaohe
-  type: vless
-  server: platform118.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform118
-    headers:
-      Host: platform118.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 45 - xiaohe
-  type: vless
-  server: platform108.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform108
-    headers:
-      Host: platform108.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 46 - xiaohe
-  type: vless
-  server: platform109.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform109
-    headers:
-      Host: '%5B%27platform109.halalkhor.info%27%5D'
-- name: 🇯🇵 日本 (Japan) 47 - xiaohe
-  type: vless
-  server: b2n.ir
+  server: 137.220.221.179
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---config_Qavi
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 48 - xiaohe
-  type: vless
-  server: platform102.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform102
-    headers:
-      Host: platform102.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 49 - xiaohe
+- name: 🇯🇵 日本 (Japan) 25 - xiaohe
   type: vless
-  server: platform102.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform102
-    headers:
-      Host: platform102.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 50 - xiaohe
-  type: vless
-  server: platform101.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform101
-    headers:
-      Host: platform101.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 51 - xiaohe
-  type: vless
-  server: platform117.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform117
-    headers:
-      Host: platform117.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 52 - xiaohe
-  type: vless
-  server: platform117.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform117
-    headers:
-      Host: platform117.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 53 - xiaohe
-  type: vless
-  server: 104.27.46.35
+  server: 104.24.31.89
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -664,9 +316,9 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 54 - xiaohe
+- name: 🇯🇵 日本 (Japan) 26 - xiaohe
   type: vless
-  server: 104.18.42.98
+  server: 104.16.111.102
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -678,28 +330,7 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 55 - xiaohe
-  type: ss
-  server: 84.247.155.196
-  port: 443
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 56 - xiaohe
-  type: vless
-  server: 104.21.33.59
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 57 - xiaohe
+- name: 🇯🇵 日本 (Japan) 27 - xiaohe
   type: vless
   server: 162.159.250.29
   port: 443
@@ -710,12 +341,26 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP
     headers:
       Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 58 - xiaohe
+- name: 🇯🇵 日本 (Japan) 28 - xiaohe
   type: vless
-  server: 104.16.10.2
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇯🇵 日本 (Japan) 29 - xiaohe
+  type: vless
+  server: 104.21.70.228
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -727,70 +372,9 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 59 - xiaohe
+- name: 🇯🇵 日本 (Japan) 30 - xiaohe
   type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 60 - xiaohe
-  type: vless
-  server: platform118.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform118
-    headers:
-      Host: platform118.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 61 - xiaohe
-  type: vless
-  server: 154.31.114.162
-  port: 8443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 62 - xiaohe
-  type: vless
-  server: platform113.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform113
-    headers:
-      Host: platform113.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 63 - xiaohe
-  type: vless
-  server: platform117.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform117
-    headers:
-      Host: platform117.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 64 - xiaohe
-  type: vless
-  server: 188.114.98.0
+  server: 104.16.10.9
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -802,7 +386,21 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 65 - xiaohe
+- name: 🇯🇵 日本 (Japan) 31 - xiaohe
+  type: vless
+  server: 104.21.70.21
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 32 - xiaohe
   type: vless
   server: 162.159.254.3
   port: 443
@@ -816,23 +414,9 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 66 - xiaohe
+- name: 🇯🇵 日本 (Japan) 33 - xiaohe
   type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 67 - xiaohe
-  type: vless
-  server: 43.170.8.95
+  server: 104.16.10.104
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -844,21 +428,28 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 68 - xiaohe
+- name: 🇯🇵 日本 (Japan) 34 - xiaohe
   type: vless
-  server: 188.114.97.6
+  server: 104.16.10.22
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lucasjow.us.ci
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---TOOTFFARANGI
+    path: /tyxyws
     headers:
-      Host: lucasjow.us.ci
-- name: 🇯🇵 日本 (Japan) 69 - xiaohe
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 35 - xiaohe
+  type: ss
+  server: 149.22.87.241
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 36 - xiaohe
   type: vless
   server: 141.11.139.215
   port: 443
@@ -872,228 +463,7 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🇯🇵 日本 (Japan) 70 - xiaohe
-  type: vless
-  server: platform113.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform113
-    headers:
-      Host: platform113.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 71 - xiaohe
-  type: vless
-  server: platform115.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform115
-    headers:
-      Host: '%5B'
-- name: 🇯🇵 日本 (Japan) 72 - xiaohe
-  type: vless
-  server: platform115.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform115
-    headers:
-      Host: platform115.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 73 - xiaohe
-  type: vless
-  server: 130.94.65.201
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform115
-    headers:
-      Host: platform115.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 74 - xiaohe
-  type: vless
-  server: platform102.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform102
-    headers:
-      Host: platform102.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 75 - xiaohe
-  type: vless
-  server: platform101.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform101
-    headers:
-      Host: platform101.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 76 - xiaohe
-  type: vless
-  server: platform101.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform101
-    headers:
-      Host: platform101.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 77 - xiaohe
-  type: vless
-  server: platform101.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform101
-    headers:
-      Host: platform101.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 78 - xiaohe
-  type: vless
-  server: 130.94.67.180
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform117
-    headers:
-      Host: 130.94.67.180
-- name: 🇯🇵 日本 (Japan) 79 - xiaohe
-  type: vless
-  server: platform118.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform118
-    headers:
-      Host: platform118.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 80 - xiaohe
-  type: vless
-  server: platform118.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform118
-    headers:
-      Host: platform118.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 81 - xiaohe
-  type: vless
-  server: platform118.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform118
-    headers:
-      Host: platform118.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 82 - xiaohe
-  type: vless
-  server: platform118.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform118
-    headers:
-      Host: platform118.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 83 - xiaohe
-  type: vless
-  server: 130.94.67.40
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform118
-    headers:
-      Host: platform118.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 84 - xiaohe
-  type: vless
-  server: platform101.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform101
-    headers:
-      Host: platform101.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 85 - xiaohe
-  type: vless
-  server: platform113.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform113
-    headers:
-      Host: platform113.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 86 - xiaohe
-  type: vless
-  server: platform113.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform113
-    headers:
-      Host: '%5B%27platform113.halalkhor.info%27%5D'
-- name: 🇯🇵 日本 (Japan) 87 - xiaohe
+- name: 🇯🇵 日本 (Japan) 37 - xiaohe
   type: vless
   server: platform113.golnamakcert.top
   port: 80
@@ -1106,7 +476,20 @@ proxies:
     path: /platform113
     headers:
       Host: platform113.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 88 - xiaohe
+- name: 🇯🇵 日本 (Japan) 38 - xiaohe
+  type: vless
+  server: platform113.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform113
+    headers:
+      Host: platform113.golnamakcert.top
+- name: 🇯🇵 日本 (Japan) 39 - xiaohe
   type: vless
   server: platform113.golnamakcert.top
   port: 80
@@ -1119,9 +502,9 @@ proxies:
     path: /platform113
     headers:
       Host: platform113.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 89 - xiaohe
+- name: 🇯🇵 日本 (Japan) 40 - xiaohe
   type: vless
-  server: platform115.golnamakcert.top
+  server: platform109.golnamakcert.top
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
@@ -1129,12 +512,12 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /platform115
+    path: /platform109
     headers:
-      Host: platform115.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 90 - xiaohe
+      Host: platform109.halalkhor.info
+- name: 🇯🇵 日本 (Japan) 41 - xiaohe
   type: vless
-  server: platform115.golnamakcert.top
+  server: platform117.golnamakcert.top
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
@@ -1142,10 +525,49 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /platform115
+    path: /platform117
     headers:
-      Host: '%5B'
-- name: 🇯🇵 日本 (Japan) 91 - xiaohe
+      Host: platform117.golnamakcert.top
+- name: 🇯🇵 日本 (Japan) 42 - xiaohe
+  type: vless
+  server: 130.94.67.180
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform117
+    headers:
+      Host: 130.94.67.180
+- name: 🇯🇵 日本 (Japan) 43 - xiaohe
+  type: vless
+  server: platform117.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform117
+    headers:
+      Host: platform117.halalkhor.info
+- name: 🇯🇵 日本 (Japan) 44 - xiaohe
+  type: vless
+  server: 130.94.67.180
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform117
+    headers:
+      Host: platform117.halalkhor.info
+- name: 🇯🇵 日本 (Japan) 45 - xiaohe
   type: vless
   server: 130.94.65.201
   port: 80
@@ -1158,9 +580,9 @@ proxies:
     path: /platform115
     headers:
       Host: platform115.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 92 - xiaohe
+- name: 🇯🇵 日本 (Japan) 46 - xiaohe
   type: vless
-  server: platform107.golnamakcert.top
+  server: platform115.golnamakcert.top
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
@@ -1168,12 +590,12 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /platform107
+    path: /platform115
     headers:
-      Host: platform107.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 93 - xiaohe
+      Host: platform115.halalkhor.info
+- name: 🇯🇵 日本 (Japan) 47 - xiaohe
   type: vless
-  server: 130.94.67.156
+  server: platform118.golnamakcert.top
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
@@ -1181,12 +603,12 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /platform103
+    path: /platform118
     headers:
-      Host: platform103.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 94 - xiaohe
+      Host: platform118.golnamakcert.top
+- name: 🇯🇵 日本 (Japan) 48 - xiaohe
   type: vless
-  server: platform103.golnamakcert.top
+  server: platform118.golnamakcert.top
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
@@ -1194,12 +616,12 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /platform103
+    path: /platform118
     headers:
-      Host: platform103.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 95 - xiaohe
+      Host: platform118.halalkhor.info
+- name: 🇯🇵 日本 (Japan) 49 - xiaohe
   type: vless
-  server: platform108.golnamakcert.top
+  server: platform118.golnamakcert.top
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
@@ -1207,12 +629,12 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /platform108
+    path: /platform118
     headers:
-      Host: platform108.golnamakcert.top
-- name: 🇯🇵 日本 (Japan) 96 - xiaohe
+      Host: platform118.halalkhor.info
+- name: 🇯🇵 日本 (Japan) 50 - xiaohe
   type: vless
-  server: platform102.golnamakcert.top
+  server: 130.94.67.50
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
@@ -1220,35 +642,9 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /platform102
+    path: /platform113
     headers:
-      Host: platform102.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 97 - xiaohe
-  type: vless
-  server: platform102.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform102
-    headers:
-      Host: platform102.halalkhor.info
-- name: 🇯🇵 日本 (Japan) 98 - xiaohe
-  type: vless
-  server: platform102.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform102
-    headers:
-      Host: platform102.golnamakcert.top
+      Host: platform113.halalkhor.info
 proxy-groups:
 - name: PROXIES
   type: select
@@ -1304,54 +700,6 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 48 - xiaohe
   - 🇯🇵 日本 (Japan) 49 - xiaohe
   - 🇯🇵 日本 (Japan) 50 - xiaohe
-  - 🇯🇵 日本 (Japan) 51 - xiaohe
-  - 🇯🇵 日本 (Japan) 52 - xiaohe
-  - 🇯🇵 日本 (Japan) 53 - xiaohe
-  - 🇯🇵 日本 (Japan) 54 - xiaohe
-  - 🇯🇵 日本 (Japan) 55 - xiaohe
-  - 🇯🇵 日本 (Japan) 56 - xiaohe
-  - 🇯🇵 日本 (Japan) 57 - xiaohe
-  - 🇯🇵 日本 (Japan) 58 - xiaohe
-  - 🇯🇵 日本 (Japan) 59 - xiaohe
-  - 🇯🇵 日本 (Japan) 60 - xiaohe
-  - 🇯🇵 日本 (Japan) 61 - xiaohe
-  - 🇯🇵 日本 (Japan) 62 - xiaohe
-  - 🇯🇵 日本 (Japan) 63 - xiaohe
-  - 🇯🇵 日本 (Japan) 64 - xiaohe
-  - 🇯🇵 日本 (Japan) 65 - xiaohe
-  - 🇯🇵 日本 (Japan) 66 - xiaohe
-  - 🇯🇵 日本 (Japan) 67 - xiaohe
-  - 🇯🇵 日本 (Japan) 68 - xiaohe
-  - 🇯🇵 日本 (Japan) 69 - xiaohe
-  - 🇯🇵 日本 (Japan) 70 - xiaohe
-  - 🇯🇵 日本 (Japan) 71 - xiaohe
-  - 🇯🇵 日本 (Japan) 72 - xiaohe
-  - 🇯🇵 日本 (Japan) 73 - xiaohe
-  - 🇯🇵 日本 (Japan) 74 - xiaohe
-  - 🇯🇵 日本 (Japan) 75 - xiaohe
-  - 🇯🇵 日本 (Japan) 76 - xiaohe
-  - 🇯🇵 日本 (Japan) 77 - xiaohe
-  - 🇯🇵 日本 (Japan) 78 - xiaohe
-  - 🇯🇵 日本 (Japan) 79 - xiaohe
-  - 🇯🇵 日本 (Japan) 80 - xiaohe
-  - 🇯🇵 日本 (Japan) 81 - xiaohe
-  - 🇯🇵 日本 (Japan) 82 - xiaohe
-  - 🇯🇵 日本 (Japan) 83 - xiaohe
-  - 🇯🇵 日本 (Japan) 84 - xiaohe
-  - 🇯🇵 日本 (Japan) 85 - xiaohe
-  - 🇯🇵 日本 (Japan) 86 - xiaohe
-  - 🇯🇵 日本 (Japan) 87 - xiaohe
-  - 🇯🇵 日本 (Japan) 88 - xiaohe
-  - 🇯🇵 日本 (Japan) 89 - xiaohe
-  - 🇯🇵 日本 (Japan) 90 - xiaohe
-  - 🇯🇵 日本 (Japan) 91 - xiaohe
-  - 🇯🇵 日本 (Japan) 92 - xiaohe
-  - 🇯🇵 日本 (Japan) 93 - xiaohe
-  - 🇯🇵 日本 (Japan) 94 - xiaohe
-  - 🇯🇵 日本 (Japan) 95 - xiaohe
-  - 🇯🇵 日本 (Japan) 96 - xiaohe
-  - 🇯🇵 日本 (Japan) 97 - xiaohe
-  - 🇯🇵 日本 (Japan) 98 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -1407,53 +755,5 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 48 - xiaohe
   - 🇯🇵 日本 (Japan) 49 - xiaohe
   - 🇯🇵 日本 (Japan) 50 - xiaohe
-  - 🇯🇵 日本 (Japan) 51 - xiaohe
-  - 🇯🇵 日本 (Japan) 52 - xiaohe
-  - 🇯🇵 日本 (Japan) 53 - xiaohe
-  - 🇯🇵 日本 (Japan) 54 - xiaohe
-  - 🇯🇵 日本 (Japan) 55 - xiaohe
-  - 🇯🇵 日本 (Japan) 56 - xiaohe
-  - 🇯🇵 日本 (Japan) 57 - xiaohe
-  - 🇯🇵 日本 (Japan) 58 - xiaohe
-  - 🇯🇵 日本 (Japan) 59 - xiaohe
-  - 🇯🇵 日本 (Japan) 60 - xiaohe
-  - 🇯🇵 日本 (Japan) 61 - xiaohe
-  - 🇯🇵 日本 (Japan) 62 - xiaohe
-  - 🇯🇵 日本 (Japan) 63 - xiaohe
-  - 🇯🇵 日本 (Japan) 64 - xiaohe
-  - 🇯🇵 日本 (Japan) 65 - xiaohe
-  - 🇯🇵 日本 (Japan) 66 - xiaohe
-  - 🇯🇵 日本 (Japan) 67 - xiaohe
-  - 🇯🇵 日本 (Japan) 68 - xiaohe
-  - 🇯🇵 日本 (Japan) 69 - xiaohe
-  - 🇯🇵 日本 (Japan) 70 - xiaohe
-  - 🇯🇵 日本 (Japan) 71 - xiaohe
-  - 🇯🇵 日本 (Japan) 72 - xiaohe
-  - 🇯🇵 日本 (Japan) 73 - xiaohe
-  - 🇯🇵 日本 (Japan) 74 - xiaohe
-  - 🇯🇵 日本 (Japan) 75 - xiaohe
-  - 🇯🇵 日本 (Japan) 76 - xiaohe
-  - 🇯🇵 日本 (Japan) 77 - xiaohe
-  - 🇯🇵 日本 (Japan) 78 - xiaohe
-  - 🇯🇵 日本 (Japan) 79 - xiaohe
-  - 🇯🇵 日本 (Japan) 80 - xiaohe
-  - 🇯🇵 日本 (Japan) 81 - xiaohe
-  - 🇯🇵 日本 (Japan) 82 - xiaohe
-  - 🇯🇵 日本 (Japan) 83 - xiaohe
-  - 🇯🇵 日本 (Japan) 84 - xiaohe
-  - 🇯🇵 日本 (Japan) 85 - xiaohe
-  - 🇯🇵 日本 (Japan) 86 - xiaohe
-  - 🇯🇵 日本 (Japan) 87 - xiaohe
-  - 🇯🇵 日本 (Japan) 88 - xiaohe
-  - 🇯🇵 日本 (Japan) 89 - xiaohe
-  - 🇯🇵 日本 (Japan) 90 - xiaohe
-  - 🇯🇵 日本 (Japan) 91 - xiaohe
-  - 🇯🇵 日本 (Japan) 92 - xiaohe
-  - 🇯🇵 日本 (Japan) 93 - xiaohe
-  - 🇯🇵 日本 (Japan) 94 - xiaohe
-  - 🇯🇵 日本 (Japan) 95 - xiaohe
-  - 🇯🇵 日本 (Japan) 96 - xiaohe
-  - 🇯🇵 日本 (Japan) 97 - xiaohe
-  - 🇯🇵 日本 (Japan) 98 - xiaohe
 rules:
 - MATCH,PROXIES
