@@ -27,35 +27,20 @@ proxies:
   reality-opts:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇫🇮 FI 03 - xiaohe
   type: vless
-  server: 199.232.239.239
-  port: 443
-  uuid: 434f0115-bf40-44ac-cf80-5c14f4b6f6b3
+  server: 45.144.234.157
+  port: 14430
+  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: www.firefox.com
   network: ws
   ws-opts:
-    path: /?ed=2056/?TELEGRAM--KANAL--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray
+    path: /vless
     headers:
-      Host: mpkoe7ypcibr80p102020.global.ssl.fastly.net
-- name: 🇫🇮 FI 04 - xiaohe
-  type: vless
-  server: 199.232.239.239
-  port: 443
-  uuid: 434f0115-bf40-44ac-cf80-5c14f4b6f6b3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: www.firefox.com
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
-    headers:
-      Host: mpkoe7ypcibr80p102020.global.ssl.fastly.net
+      Host: 45.144.234.157
 proxy-groups:
 - name: PROXIES
   type: select
@@ -64,7 +49,6 @@ proxy-groups:
   - 🇫🇮 FI 01 - xiaohe
   - 🇫🇮 FI 02 - xiaohe
   - 🇫🇮 FI 03 - xiaohe
-  - 🇫🇮 FI 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -73,6 +57,5 @@ proxy-groups:
   - 🇫🇮 FI 01 - xiaohe
   - 🇫🇮 FI 02 - xiaohe
   - 🇫🇮 FI 03 - xiaohe
-  - 🇫🇮 FI 04 - xiaohe
 rules:
 - MATCH,PROXIES
