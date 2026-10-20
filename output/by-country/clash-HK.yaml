@@ -5,17 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - xiaohe
-  type: vless
-  server: 47.238.210.5
-  port: 13779
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+  type: vmess
+  server: yg1.ygkkk.dpdns.org
+  port: 443
+  uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-  servername: tesla.com
-  client-fingerprint: chrome
+  servername: jmp1.907737.xyz
+  network: ws
+  ws-opts:
+    path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
+    headers:
+      Host: jmp1.907737.xyz
 proxy-groups:
 - name: PROXIES
   type: select
