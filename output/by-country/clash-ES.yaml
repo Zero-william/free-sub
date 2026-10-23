@@ -5,6 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇪🇸 西班牙 (Spain) 01 - xiaohe
+  type: ss
+  server: 193.148.19.212
+  port: 12796
+  cipher: aes-128-gcm
+  password: 905470106f6c49d68e90a5c55c020190
+  udp: true
+- name: 🇪🇸 西班牙 (Spain) 02 - xiaohe
+  type: ss
+  server: 108.181.71.5
+  port: 15995
+  cipher: aes-128-gcm
+  password: 882dd5b0e0f2cf05bb5de75f59bbe953
+  udp: true
+- name: 🇪🇸 西班牙 (Spain) 03 - xiaohe
   type: vless
   server: 212.227.235.66
   port: 2053
@@ -22,11 +36,15 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇪🇸 西班牙 (Spain) 01 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 02 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇪🇸 西班牙 (Spain) 01 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 02 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 03 - xiaohe
 rules:
 - MATCH,PROXIES
