@@ -6,10 +6,10 @@ log-level: info
 proxies:
 - name: 🇮🇪 IE 01 - xiaohe
   type: ss
-  server: 20.223.233.241
+  server: 20.123.12.228
   port: 443
   cipher: chacha20-ietf-poly1305
-  password: Ds3hlPero5ov6gae
+  password: lmG45rfbkt8DAPfP
   udp: true
 proxy-groups:
 - name: PROXIES
