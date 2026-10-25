@@ -15,11 +15,11 @@ proxies:
   reality-opts:
     public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
   servername: www.cloudflare.com
-  client-fingerprint: qq
+  client-fingerprint: ios
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
   type: vless
   server: 526.150333.xyz
-  port: 21002
+  port: 21001
   uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
   udp: true
   tls: true
@@ -27,24 +27,35 @@ proxies:
   reality-opts:
     public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
   servername: www.cloudflare.com
-  client-fingerprint: ios
+  client-fingerprint: chrome
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
-  type: vmess
-  server: 47.243.153.153
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 526.150333.xyz
+  port: 21003
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: i2psm3knof5qjjix.v.3dns.vip
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+  servername: www.cloudflare.com
+  client-fingerprint: qq
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+  type: vmess
+  server: 156.245.232.239
+  port: 35043
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /ws-vmess
+    path: /
     headers:
-      Host: i2psm3knof5qjjix.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+      Host: ''
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
   type: vless
   server: 526.150333.xyz
   port: 21002
@@ -56,22 +67,10 @@ proxies:
     public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
   servername: www.cloudflare.com
   client-fingerprint: safari
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
-  type: vless
-  server: 526.150333.xyz
-  port: 21003
-  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
-  servername: www.cloudflare.com
-  client-fingerprint: ios
 - name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
   type: vless
   server: 526.150333.xyz
-  port: 21001
+  port: 21003
   uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
   udp: true
   tls: true
@@ -90,13 +89,85 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ''
+  servername: i2psm3knof5qjjix.v.3dns.vip
   network: ws
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: ''
+      Host: i2psm3knof5qjjix.v.3dns.vip
 - name: 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
+  type: vless
+  server: 526.150333.xyz
+  port: 21002
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+  servername: www.cloudflare.com
+  client-fingerprint: ios
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
+  type: vmess
+  server: 47.244.120.197
+  port: 36703
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /arki
+    headers:
+      Host: google.com
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - xiaohe
+  type: vless
+  server: 526.150333.xyz
+  port: 21002
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 11 - xiaohe
+  type: vless
+  server: 526.150333.xyz
+  port: 21003
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+  servername: www.cloudflare.com
+  client-fingerprint: edge
+- name: 🇭🇰 中国香港 (Hong Kong) 12 - xiaohe
+  type: vless
+  server: 195.58.144.56
+  port: 11907
+  uuid: 07cb07b9-0c4d-46c1-a15a-b147511b6b07
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 195.58.144.56
+- name: 🇭🇰 中国香港 (Hong Kong) 13 - xiaohe
+  type: vless
+  server: 526.150333.xyz
+  port: 21001
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+  servername: www.cloudflare.com
+  client-fingerprint: qq
+- name: 🇭🇰 中国香港 (Hong Kong) 14 - xiaohe
   type: vless
   server: 526.150333.xyz
   port: 21001
@@ -108,35 +179,21 @@ proxies:
     public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
   servername: www.cloudflare.com
   client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 15 - xiaohe
   type: vless
-  server: 526.150333.xyz
-  port: 21003
-  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  server: 188.114.97.3
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
-  servername: www.cloudflare.com
-  client-fingerprint: safari
-- name: 🇭🇰 中国香港 (Hong Kong) 10 - xiaohe
-  type: vmess
-  server: 47.243.153.153
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: i2psm3knof5qjjix.v.3dns.vip
+  servername: newwk1.f1w.de5.net
   network: ws
   ws-opts:
-    path: /ws-vmess
+    path: /
     headers:
-      Host: i2psm3knof5qjjix.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 11 - xiaohe
+      Host: newwk1.f1w.de5.net
+- name: 🇭🇰 中国香港 (Hong Kong) 16 - xiaohe
   type: vless
   server: 526.150333.xyz
   port: 21002
@@ -148,19 +205,7 @@ proxies:
     public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
   servername: www.cloudflare.com
   client-fingerprint: qq
-- name: 🇭🇰 中国香港 (Hong Kong) 12 - xiaohe
-  type: vless
-  server: 526.150333.xyz
-  port: 21002
-  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
-  servername: www.cloudflare.com
-  client-fingerprint: edge
-- name: 🇭🇰 中国香港 (Hong Kong) 13 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 17 - xiaohe
   type: vless
   server: 103.180.20.108
   port: 8443
@@ -174,66 +219,6 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: ty986gfazs.cainiaohub.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 14 - xiaohe
-  type: vmess
-  server: 8.218.195.61
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: EX1oGt73NzPQKAc2.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: EX1oGt73NzPQKAc2.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 15 - xiaohe
-  type: vmess
-  server: 47.243.153.153
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: i2psm3knof5qjjix.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: i2psm3knof5qjjix.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 16 - xiaohe
-  type: vless
-  server: 526.150333.xyz
-  port: 21001
-  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
-  servername: www.cloudflare.com
-  client-fingerprint: qq
-- name: 🇭🇰 中国香港 (Hong Kong) 17 - xiaohe
-  type: vmess
-  server: 8.218.195.61
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: EX1oGt73NzPQKAc2.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: EX1oGt73NzPQKAc2.v.3dns.vip
 - name: 🇭🇰 中国香港 (Hong Kong) 18 - xiaohe
   type: vless
   server: 526.150333.xyz
@@ -247,38 +232,9 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: firefox
 - name: 🇭🇰 中国香港 (Hong Kong) 19 - xiaohe
-  type: vmess
-  server: 47.243.153.153
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: I2PSm3Knof5qjjix.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: I2PSm3Knof5qjjix.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 20 - xiaohe
-  type: vless
-  server: 213.176.92.168
-  port: 14430
-  uuid: ba52cc43-700d-4040-9444-29214c98e6e0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 213.176.92.168
-- name: 🇭🇰 中国香港 (Hong Kong) 21 - xiaohe
   type: vless
   server: 526.150333.xyz
-  port: 21001
+  port: 21002
   uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
   udp: true
   tls: true
@@ -286,8 +242,8 @@ proxies:
   reality-opts:
     public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
   servername: www.cloudflare.com
-  client-fingerprint: safari
-- name: 🇭🇰 中国香港 (Hong Kong) 22 - xiaohe
+  client-fingerprint: firefox
+- name: 🇭🇰 中国香港 (Hong Kong) 20 - xiaohe
   type: vless
   server: 526.150333.xyz
   port: 21004
@@ -299,7 +255,22 @@ proxies:
     public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 23 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 21 - xiaohe
+  type: vmess
+  server: 47.244.120.197
+  port: 23026
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /arki
+    headers:
+      Host: 47.244.120.197
+- name: 🇭🇰 中国香港 (Hong Kong) 22 - xiaohe
   type: vless
   server: 526.150333.xyz
   port: 21003
@@ -310,8 +281,8 @@ proxies:
   reality-opts:
     public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
   servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 24 - xiaohe
+  client-fingerprint: safari
+- name: 🇭🇰 中国香港 (Hong Kong) 23 - xiaohe
   type: vless
   server: 526.150333.xyz
   port: 21002
@@ -322,7 +293,19 @@ proxies:
   reality-opts:
     public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: edge
+- name: 🇭🇰 中国香港 (Hong Kong) 24 - xiaohe
+  type: vless
+  server: 526.150333.xyz
+  port: 21001
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+  servername: www.cloudflare.com
+  client-fingerprint: safari
 proxy-groups:
 - name: PROXIES
   type: select
