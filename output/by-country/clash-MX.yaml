@@ -6,19 +6,32 @@ log-level: info
 proxies:
 - name: 🇲🇽 MX 01 - xiaohe
   type: vless
-  server: 131.196.253.141
-  port: 443
-  uuid: 0575005f-0ba9-4d6d-85e0-4a6a8cbafc1b
+  server: 149.104.90.21
+  port: 19167
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: kclx.eu.org
-  network: ws
-  ws-opts:
-    path: /154.16.10.34-8080
-    headers:
-      Host: kclx.eu.org
+  servername: mx001.zestapp778.com
 - name: 🇲🇽 MX 02 - xiaohe
+  type: vless
+  server: 149.104.90.21
+  port: 19167
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mx001.zestapp778.com
+- name: 🇲🇽 MX 03 - xiaohe
+  type: vless
+  server: mx001.zestapp778.com
+  port: 19167
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mx001.zestapp778.com
+- name: 🇲🇽 MX 04 - xiaohe
   type: vless
   server: mx001.zestapp778.com
   port: 19167
@@ -34,6 +47,8 @@ proxy-groups:
   - AUTO
   - 🇲🇽 MX 01 - xiaohe
   - 🇲🇽 MX 02 - xiaohe
+  - 🇲🇽 MX 03 - xiaohe
+  - 🇲🇽 MX 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -41,5 +56,7 @@ proxy-groups:
   proxies:
   - 🇲🇽 MX 01 - xiaohe
   - 🇲🇽 MX 02 - xiaohe
+  - 🇲🇽 MX 03 - xiaohe
+  - 🇲🇽 MX 04 - xiaohe
 rules:
 - MATCH,PROXIES
