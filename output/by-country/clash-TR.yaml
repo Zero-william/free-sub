@@ -5,30 +5,23 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
-  type: vless
-  server: 155.103.71.142
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  type: ss
+  server: location8.cpanel-host10.ir
+  port: 56134
+  cipher: chacha20-ietf-poly1305
+  password: uvKNudV-N8AUCrykPiyznA
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chromefp=chrome
-    headers:
-      Host: ccc.010304.xyz
 - name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   type: ss
-  server: 87.236.166.178
+  server: 87.236.166.100
   port: 56137
   cipher: chacha20-ietf-poly1305
   password: uvKNudV-N8AUCrykPiyznA
   udp: true
 - name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
   type: ss
-  server: location8.cpanel-host10.ir
-  port: 56134
+  server: 87.236.166.166
+  port: 56137
   cipher: chacha20-ietf-poly1305
   password: uvKNudV-N8AUCrykPiyznA
   udp: true
@@ -43,25 +36,27 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /fp=chromefp=chrome
     headers:
       Host: ccc.010304.xyz
 - name: 🇹🇷 土耳其 (Turkey) 05 - xiaohe
   type: vless
-  server: 151.241.226.201
-  port: 2053
-  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
+  server: 155.103.71.142
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
-  servername: www.apple.com
-  client-fingerprint: chrome
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
 - name: 🇹🇷 土耳其 (Turkey) 06 - xiaohe
   type: ss
-  server: location8.cpanel-host10.ir
-  port: 56134
+  server: 87.236.166.178
+  port: 56137
   cipher: chacha20-ietf-poly1305
   password: uvKNudV-N8AUCrykPiyznA
   udp: true

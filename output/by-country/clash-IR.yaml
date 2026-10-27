@@ -5,18 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇷 IR 01 - xiaohe
-  type: vless
-  server: 199.232.78.159
-  port: 80
-  uuid: 2ec88477-900e-40ad-ae4d-8434311a6041
+  type: ss
+  server: p1tun2.greewebservices.ir
+  port: 2060
+  cipher: chacha20-ietf-poly1305
+  password: lKas7axN_5UwIlEgGh3V3Q
   udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
-    headers:
-      Host: rb24.ir
 proxy-groups:
 - name: PROXIES
   type: select
