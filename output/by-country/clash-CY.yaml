@@ -4,24 +4,25 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇿 CZ 01 - xiaohe
-  type: ss
-  server: location15.cpanel-host16.ir
-  port: 56137
-  cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
+- name: 🇨🇾 CY 01 - xiaohe
+  type: vless
+  server: 171.22.119.74
+  port: 8447
+  uuid: 6aed42ba-cd2d-4671-87d9-c949b6876888
   udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇿 CZ 01 - xiaohe
+  - 🇨🇾 CY 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇿 CZ 01 - xiaohe
+  - 🇨🇾 CY 01 - xiaohe
 rules:
 - MATCH,PROXIES

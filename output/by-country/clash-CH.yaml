@@ -5,14 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇭 CH 01 - xiaohe
-  type: vless
-  server: 149.33.15.213
-  port: 443
-  uuid: 054362fb-e485-4a3f-9568-4c5b0f60e074
+  type: ss
+  server: 132.243.175.144
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: swz.proxyplankton.ru
 - name: 🇨🇭 CH 02 - xiaohe
   type: vless
   server: 208.69.78.217
@@ -32,6 +30,15 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
   udp: true
+- name: 🇨🇭 CH 04 - xiaohe
+  type: vless
+  server: swz.proxyplankton.ru
+  port: 443
+  uuid: 054362fb-e485-4a3f-9568-4c5b0f60e074
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: swz.proxyplankton.ru
 proxy-groups:
 - name: PROXIES
   type: select
@@ -40,6 +47,7 @@ proxy-groups:
   - 🇨🇭 CH 01 - xiaohe
   - 🇨🇭 CH 02 - xiaohe
   - 🇨🇭 CH 03 - xiaohe
+  - 🇨🇭 CH 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -48,5 +56,6 @@ proxy-groups:
   - 🇨🇭 CH 01 - xiaohe
   - 🇨🇭 CH 02 - xiaohe
   - 🇨🇭 CH 03 - xiaohe
+  - 🇨🇭 CH 04 - xiaohe
 rules:
 - MATCH,PROXIES

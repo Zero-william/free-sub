@@ -5,12 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇩🇪 德国 (Germany) 01 - xiaohe
-  type: ss
-  server: 177.202.111.19
-  port: 56137
-  cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
+  type: vless
+  server: 104.17.71.206
+  port: 8443
+  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: free.sahanwickramasinghe.me
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
 - name: 🇩🇪 德国 (Germany) 02 - xiaohe
   type: vless
   server: 57.129.41.216
@@ -25,18 +32,41 @@ proxies:
     headers:
       Host: OV-Germany1.09vpn.com
 - name: 🇩🇪 德国 (Germany) 03 - xiaohe
+  type: ss
+  server: 185.226.172.8
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
+- name: 🇩🇪 德国 (Germany) 04 - xiaohe
+  type: ss
+  server: 177.202.111.19
+  port: 56137
+  cipher: chacha20-ietf-poly1305
+  password: uvKNudV-N8AUCrykPiyznA
+  udp: true
+- name: 🇩🇪 德国 (Germany) 05 - xiaohe
+  type: ss
+  server: 213.202.208.199
+  port: 7001
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+  udp: true
+- name: 🇩🇪 德国 (Germany) 06 - xiaohe
   type: vless
-  server: p1tun0.greewebservices.ir
-  port: 38820
-  uuid: f234330e-f9df-46e3-8f60-b2af5173c147
+  server: 104.17.70.206
+  port: 8443
+  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
-  servername: play.google.com
-  client-fingerprint: ios
-- name: 🇩🇪 德国 (Germany) 04 - xiaohe
+  servername: free.sahanwickramasinghe.me
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇩🇪 德国 (Germany) 07 - xiaohe
   type: vless
   server: 157.230.101.36
   port: 443
@@ -50,21 +80,21 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🇩🇪 德国 (Germany) 05 - xiaohe
+- name: 🇩🇪 德国 (Germany) 08 - xiaohe
   type: vless
-  server: 194.24.161.220
+  server: 87.120.166.160
   port: 443
-  uuid: 4c5a54b3-774e-4391-b78e-f3e9fa928792
+  uuid: 7b91b2c3-8af3-449b-a555-00c9460989f4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: borsch2.spravedlivost.fun
+  servername: lvi.su
   network: ws
   ws-opts:
-    path: /api/metric/ws
+    path: /vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2
     headers:
-      Host: 194.24.161.220
-- name: 🇩🇪 德国 (Germany) 06 - xiaohe
+      Host: lvi.su
+- name: 🇩🇪 德国 (Germany) 09 - xiaohe
   type: vless
   server: 104.17.72.206
   port: 8443
@@ -78,21 +108,14 @@ proxies:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
-- name: 🇩🇪 德国 (Germany) 07 - xiaohe
+- name: 🇩🇪 德国 (Germany) 10 - xiaohe
   type: ss
   server: 185.176.204.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇩🇪 德国 (Germany) 08 - xiaohe
-  type: ss
-  server: 185.176.204.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇩🇪 德国 (Germany) 09 - xiaohe
+- name: 🇩🇪 德国 (Germany) 11 - xiaohe
   type: vless
   server: support.zoom.us
   port: 80
@@ -105,19 +128,14 @@ proxies:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
-- name: 🇩🇪 德国 (Germany) 10 - xiaohe
-  type: vless
-  server: p1tun0.greewebservices.ir
-  port: 38820
-  uuid: f234330e-f9df-46e3-8f60-b2af5173c147
+- name: 🇩🇪 德国 (Germany) 12 - xiaohe
+  type: ss
+  server: 37.153.158.27
+  port: 56137
+  cipher: chacha20-ietf-poly1305
+  password: uvKNudV-N8AUCrykPiyznA
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
-  servername: play.google.com
-  client-fingerprint: ios
-- name: 🇩🇪 德国 (Germany) 11 - xiaohe
+- name: 🇩🇪 德国 (Germany) 13 - xiaohe
   type: vless
   server: 91.107.188.129
   port: 2083
@@ -131,56 +149,21 @@ proxies:
     path: /
     headers:
       Host: 91.107.188.129
-- name: 🇩🇪 德国 (Germany) 12 - xiaohe
-  type: ss
-  server: 213.202.208.199
-  port: 5000
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇩🇪 德国 (Germany) 13 - xiaohe
-  type: ss
-  server: 185.226.172.8
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
 - name: 🇩🇪 德国 (Germany) 14 - xiaohe
   type: vless
-  server: 91.107.247.173
-  port: 2083
-  uuid: 7858128a-6b5e-4f86-9bff-52c1f1e6439d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sino.bestsellers1.site
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sino.bestsellers1.site
-- name: 🇩🇪 德国 (Germany) 15 - xiaohe
-  type: ss
-  server: 91.107.128.44
-  port: 53185
-  cipher: 2022-blake3-aes-256-gcm
-  password: U/jVh1z5NQ0cFCiCeLLxNAFBjmLBo/ECQ0dICfRFLbQ=:cZkXr9v4dFpHUetNse9xo72JumvR4N2GLz3bxiEh6Rk=
-  udp: true
-- name: 🇩🇪 德国 (Germany) 16 - xiaohe
-  type: vless
-  server: 194.24.161.220
+  server: lvi.su
   port: 443
-  uuid: 4c5a54b3-774e-4391-b78e-f3e9fa928792
+  uuid: 7b91b2c3-8af3-449b-a555-00c9460989f4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: borsch2.spravedlivost.fun
+  servername: lvi.su
   network: ws
   ws-opts:
-    path: /api/metric/ws
+    path: /vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2
     headers:
-      Host: 194.24.161.220
-- name: 🇩🇪 德国 (Germany) 17 - xiaohe
+      Host: lvi.su
+- name: 🇩🇪 德国 (Germany) 15 - xiaohe
   type: vless
   server: 168.222.43.53
   port: 10000
@@ -188,11 +171,31 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 18 - xiaohe
+- name: 🇩🇪 德国 (Germany) 16 - xiaohe
+  type: vmess
+  server: 91.107.128.44
+  port: 24701
+  uuid: 6cdfc27b-a0cc-4ea1-802a-e98552be430d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 17 - xiaohe
   type: vless
   server: connect.wecantos.site
   port: 10000
   uuid: a05ecf37-c661-4247-ab09-4432cf0f3cc1
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 18 - xiaohe
+  type: vmess
+  server: 91.107.128.44
+  port: 36812
+  uuid: 6cdfc27b-a0cc-4ea1-802a-e98552be430d
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
@@ -211,14 +214,86 @@ proxies:
     headers:
       Host: sino.bestsellers1.site
 - name: 🇩🇪 德国 (Germany) 20 - xiaohe
-  type: vless
-  server: 5.175.205.190
-  port: 27774
-  uuid: 653137c6-474e-4a3d-9a20-5a5afb3d4a4f
+  type: vmess
+  server: 91.107.128.44
+  port: 36812
+  uuid: 6cdfc27b-a0cc-4ea1-802a-e98552be430d
+  alterId: 0
+  cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
 - name: 🇩🇪 德国 (Germany) 21 - xiaohe
+  type: vless
+  server: p1real2.greewebservices.ir
+  port: 1240
+  uuid: f234330e-f9df-46e3-8f60-b2af5173c147
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
+  servername: play.googleapis.com
+  client-fingerprint: ios
+- name: 🇩🇪 德国 (Germany) 22 - xiaohe
+  type: vless
+  server: 104.17.72.206
+  port: 8443
+  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: free.sahanwickramasinghe.me
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇩🇪 德国 (Germany) 23 - xiaohe
+  type: ss
+  server: 185.226.172.8
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
+- name: 🇩🇪 德国 (Germany) 24 - xiaohe
+  type: vless
+  server: snapp.ir
+  port: 80
+  uuid: 822e7c0b-6ce7-4274-841d-68fbb756bced
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /leewee
+    headers:
+      Host: la.flashmind.ir
+- name: 🇩🇪 德国 (Germany) 25 - xiaohe
+  type: ss
+  server: 185.176.204.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇩🇪 德国 (Germany) 26 - xiaohe
+  type: ss
+  server: 91.107.128.44
+  port: 53185
+  cipher: 2022-blake3-aes-256-gcm
+  password: U/jVh1z5NQ0cFCiCeLLxNAFBjmLBo/ECQ0dICfRFLbQ=:cZkXr9v4dFpHUetNse9xo72JumvR4N2GLz3bxiEh6Rk=
+  udp: true
+- name: 🇩🇪 德国 (Germany) 27 - xiaohe
+  type: vmess
+  server: 91.107.128.44
+  port: 36812
+  uuid: 6cdfc27b-a0cc-4ea1-802a-e98552be430d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 28 - xiaohe
   type: vless
   server: 31.77.148.89
   port: 45021
@@ -226,7 +301,30 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 22 - xiaohe
+- name: 🇩🇪 德国 (Germany) 29 - xiaohe
+  type: vless
+  server: 155.117.5.208
+  port: 10000
+  uuid: a05ecf37-c661-4247-ab09-4432cf0f3cc1
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 30 - xiaohe
+  type: vless
+  server: connect.wecantos.site
+  port: 10000
+  uuid: a05ecf37-c661-4247-ab09-4432cf0f3cc1
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 31 - xiaohe
+  type: ss
+  server: 213.202.208.199
+  port: 5000
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇩🇪 德国 (Germany) 32 - xiaohe
   type: vless
   server: 91.107.247.173
   port: 2083
@@ -240,52 +338,72 @@ proxies:
     path: /
     headers:
       Host: 91.107.247.173
-- name: 🇩🇪 德国 (Germany) 23 - xiaohe
+- name: 🇩🇪 德国 (Germany) 33 - xiaohe
+  type: ss
+  server: 177.202.111.21
+  port: 56137
+  cipher: chacha20-ietf-poly1305
+  password: uvKNudV-N8AUCrykPiyznA
+  udp: true
+- name: 🇩🇪 德国 (Germany) 34 - xiaohe
+  type: ss
+  server: 177.202.111.18
+  port: 56137
+  cipher: chacha20-ietf-poly1305
+  password: uvKNudV-N8AUCrykPiyznA
+  udp: true
+- name: 🇩🇪 德国 (Germany) 35 - xiaohe
+  type: vmess
+  server: 91.107.128.44
+  port: 36812
+  uuid: 6cdfc27b-a0cc-4ea1-802a-e98552be430d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 36 - xiaohe
   type: vless
-  server: 87.120.166.160
+  server: free.sahanwickramasinghe.me
+  port: 80
+  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇩🇪 德国 (Germany) 37 - xiaohe
+  type: vless
+  server: 194.24.161.220
   port: 443
-  uuid: 7b91b2c3-8af3-449b-a555-00c9460989f4
+  uuid: 4c5a54b3-774e-4391-b78e-f3e9fa928792
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lvi.su
+  servername: borsch2.spravedlivost.fun
   network: ws
   ws-opts:
-    path: /vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2
+    path: /api/metric/ws
     headers:
-      Host: lvi.su
-- name: 🇩🇪 德国 (Germany) 24 - xiaohe
-  type: ss
-  server: 213.202.208.199
-  port: 7001
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-  udp: true
-- name: 🇩🇪 德国 (Germany) 25 - xiaohe
+      Host: 194.24.161.220
+- name: 🇩🇪 德国 (Germany) 38 - xiaohe
   type: vless
-  server: 155.117.5.208
-  port: 10000
-  uuid: a05ecf37-c661-4247-ab09-4432cf0f3cc1
+  server: 91.107.247.173
+  port: 2083
+  uuid: 7858128a-6b5e-4f86-9bff-52c1f1e6439d
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 26 - xiaohe
-  type: vless
-  server: connect.wecantos.site
-  port: 10000
-  uuid: a05ecf37-c661-4247-ab09-4432cf0f3cc1
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 27 - xiaohe
-  type: vless
-  server: connect.wecantos.site
-  port: 10000
-  uuid: a05ecf37-c661-4247-ab09-4432cf0f3cc1
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 28 - xiaohe
+  servername: sino.bestsellers1.site
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sino.bestsellers1.site
+- name: 🇩🇪 德国 (Germany) 39 - xiaohe
   type: vless
   server: 5.175.205.190
   port: 27774
@@ -293,13 +411,14 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 29 - xiaohe
-  type: ss
-  server: 177.202.111.18
-  port: 56137
-  cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
+- name: 🇩🇪 德国 (Germany) 40 - xiaohe
+  type: vless
+  server: 5.175.205.190
+  port: 27774
+  uuid: 653137c6-474e-4a3d-9a20-5a5afb3d4a4f
   udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -334,6 +453,17 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 27 - xiaohe
   - 🇩🇪 德国 (Germany) 28 - xiaohe
   - 🇩🇪 德国 (Germany) 29 - xiaohe
+  - 🇩🇪 德国 (Germany) 30 - xiaohe
+  - 🇩🇪 德国 (Germany) 31 - xiaohe
+  - 🇩🇪 德国 (Germany) 32 - xiaohe
+  - 🇩🇪 德国 (Germany) 33 - xiaohe
+  - 🇩🇪 德国 (Germany) 34 - xiaohe
+  - 🇩🇪 德国 (Germany) 35 - xiaohe
+  - 🇩🇪 德国 (Germany) 36 - xiaohe
+  - 🇩🇪 德国 (Germany) 37 - xiaohe
+  - 🇩🇪 德国 (Germany) 38 - xiaohe
+  - 🇩🇪 德国 (Germany) 39 - xiaohe
+  - 🇩🇪 德国 (Germany) 40 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -368,5 +498,16 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 27 - xiaohe
   - 🇩🇪 德国 (Germany) 28 - xiaohe
   - 🇩🇪 德国 (Germany) 29 - xiaohe
+  - 🇩🇪 德国 (Germany) 30 - xiaohe
+  - 🇩🇪 德国 (Germany) 31 - xiaohe
+  - 🇩🇪 德国 (Germany) 32 - xiaohe
+  - 🇩🇪 德国 (Germany) 33 - xiaohe
+  - 🇩🇪 德国 (Germany) 34 - xiaohe
+  - 🇩🇪 德国 (Germany) 35 - xiaohe
+  - 🇩🇪 德国 (Germany) 36 - xiaohe
+  - 🇩🇪 德国 (Germany) 37 - xiaohe
+  - 🇩🇪 德国 (Germany) 38 - xiaohe
+  - 🇩🇪 德国 (Germany) 39 - xiaohe
+  - 🇩🇪 德国 (Germany) 40 - xiaohe
 rules:
 - MATCH,PROXIES

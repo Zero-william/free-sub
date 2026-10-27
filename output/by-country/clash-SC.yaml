@@ -16,7 +16,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 proxy-groups:
