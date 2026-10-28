@@ -13,17 +13,17 @@ proxies:
   udp: true
 - name: 🇿🇦 ZA 02 - xiaohe
   type: ss
-  server: 102.37.156.224
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: aduB9HGxQHjA2SBMRjkHX6
-  udp: true
-- name: 🇿🇦 ZA 03 - xiaohe
-  type: ss
   server: 20.164.216.117
   port: 443
   cipher: chacha20-ietf-poly1305
   password: qJo9gTes7nI3Alxi
+  udp: true
+- name: 🇿🇦 ZA 03 - xiaohe
+  type: ss
+  server: 102.37.156.224
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: aduB9HGxQHjA2SBMRjkHX6
   udp: true
 proxy-groups:
 - name: PROXIES
