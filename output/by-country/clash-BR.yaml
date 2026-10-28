@@ -13,17 +13,39 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: br.zestapp778.com
+- name: 🇧🇷 BR 02 - xiaohe
+  type: vless
+  server: br001.zestapp778.com
+  port: 15040
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: br.zestapp778.com
+- name: 🇧🇷 BR 03 - xiaohe
+  type: vless
+  server: br001.zestapp778.com
+  port: 15040
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: br.zestapp778.com
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇧🇷 BR 01 - xiaohe
+  - 🇧🇷 BR 02 - xiaohe
+  - 🇧🇷 BR 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇧🇷 BR 01 - xiaohe
+  - 🇧🇷 BR 02 - xiaohe
+  - 🇧🇷 BR 03 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   type: vless
-  server: xsru2.freeddns.org
+  server: 147.45.175.81
   port: 443
   uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   udp: true

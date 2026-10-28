@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
   type: vless
-  server: 149.28.177.190
+  server: au001.zestapp778.com
   port: 35652
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
