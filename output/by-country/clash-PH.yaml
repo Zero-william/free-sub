@@ -33,6 +33,51 @@ proxies:
   servername: ph001.zestapp778.com
 - name: 🇵🇭 PH 04 - xiaohe
   type: vless
+  server: 130.94.53.13
+  port: 15656
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ph001.zestapp778.com
+- name: 🇵🇭 PH 05 - xiaohe
+  type: vless
+  server: 130.94.53.13
+  port: 15656
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ph001.zestapp778.com
+- name: 🇵🇭 PH 06 - xiaohe
+  type: vless
+  server: ph001.zestapp778.com
+  port: 15656
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ph001.zestapp778.com
+- name: 🇵🇭 PH 07 - xiaohe
+  type: vless
+  server: 130.94.53.13
+  port: 15656
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ph001.zestapp778.com
+- name: 🇵🇭 PH 08 - xiaohe
+  type: vless
+  server: ph001.zestapp778.com
+  port: 15656
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ph001.zestapp778.com
+- name: 🇵🇭 PH 09 - xiaohe
+  type: vless
   server: ph001.zestapp778.com
   port: 15656
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
@@ -49,6 +94,11 @@ proxy-groups:
   - 🇵🇭 PH 02 - xiaohe
   - 🇵🇭 PH 03 - xiaohe
   - 🇵🇭 PH 04 - xiaohe
+  - 🇵🇭 PH 05 - xiaohe
+  - 🇵🇭 PH 06 - xiaohe
+  - 🇵🇭 PH 07 - xiaohe
+  - 🇵🇭 PH 08 - xiaohe
+  - 🇵🇭 PH 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -58,5 +108,10 @@ proxy-groups:
   - 🇵🇭 PH 02 - xiaohe
   - 🇵🇭 PH 03 - xiaohe
   - 🇵🇭 PH 04 - xiaohe
+  - 🇵🇭 PH 05 - xiaohe
+  - 🇵🇭 PH 06 - xiaohe
+  - 🇵🇭 PH 07 - xiaohe
+  - 🇵🇭 PH 08 - xiaohe
+  - 🇵🇭 PH 09 - xiaohe
 rules:
 - MATCH,PROXIES
