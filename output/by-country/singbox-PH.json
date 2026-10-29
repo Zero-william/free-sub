@@ -6,14 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇿 UZ 01 - xiaohe"
+        "🇵🇭 PH 01 - xiaohe",
+        "🇵🇭 PH 02 - xiaohe",
+        "🇵🇭 PH 03 - xiaohe",
+        "🇵🇭 PH 04 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇿 UZ 01 - xiaohe"
+        "🇵🇭 PH 01 - xiaohe",
+        "🇵🇭 PH 02 - xiaohe",
+        "🇵🇭 PH 03 - xiaohe",
+        "🇵🇭 PH 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
