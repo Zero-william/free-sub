@@ -6,14 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇬 BG 01 - xiaohe"
+        "🇳🇱 荷兰 (Netherlands) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 BG 01 - xiaohe"
+        "🇳🇱 荷兰 (Netherlands) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
