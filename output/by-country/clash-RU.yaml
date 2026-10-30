@@ -5,45 +5,26 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  type: vless
-  server: 194.87.143.165
-  port: 8443
-  uuid: f9613819-d2fe-4b3a-a2e6-40c184c6854c
+  type: ss
+  server: alb.rvpn.app
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: hTTg7lwQMzpaF7KXpY3A8w
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 194.87.143.165
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 194.87.143.165
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  type: vless
-  server: 46.254.19.164
-  port: 443
-  uuid: a5212bcb-ab85-459a-bec6-9f259eeeebfa
+  type: ss
+  server: 130.49.189.54
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: hTTg7lwQMzpaF7KXpY3A8w
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 3qgZ9UlB-y1i9jx_zQQBgiNgFHz6fPQdP9gMMl4zXiM
-  servername: wtb.tems.bet
-  client-fingerprint: firefox
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  type: vless
-  server: 194.87.143.165
-  port: 8443
-  uuid: f9613819-d2fe-4b3a-a2e6-40c184c6854c
+  type: ss
+  server: msk2.rvpn.app
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: MODziWLa9qMuW-4yPa0rfw
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wsru1.wba-pn.ru
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 194.87.143.165
 - name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
   type: vless
   server: 87.120.166.160
@@ -73,26 +54,31 @@ proxies:
     headers:
       Host: lvi.su
 - name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
-  type: ss
-  server: alb.rvpn.app
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: hTTg7lwQMzpaF7KXpY3A8w
+  type: vless
+  server: 194.87.143.165
+  port: 8443
+  uuid: f9613819-d2fe-4b3a-a2e6-40c184c6854c
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wsru1.wba-pn.ru
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 194.87.143.165
 - name: 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
-  type: ss
-  server: 130.49.189.54
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: hTTg7lwQMzpaF7KXpY3A8w
+  type: vless
+  server: 46.254.19.164
+  port: 443
+  uuid: a5212bcb-ab85-459a-bec6-9f259eeeebfa
   udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
-  type: ss
-  server: msk2.rvpn.app
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: MODziWLa9qMuW-4yPa0rfw
-  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 3qgZ9UlB-y1i9jx_zQQBgiNgFHz6fPQdP9gMMl4zXiM
+  servername: wtb.tems.bet
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -105,7 +91,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -118,6 +103,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
 rules:
 - MATCH,PROXIES
