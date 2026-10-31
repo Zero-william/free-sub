@@ -15,6 +15,24 @@ proxies:
   servername: 2.26.6.1
 - name: 🇵🇱 PL 02 - xiaohe
   type: vless
+  server: 179.253.179.109
+  port: 63053
+  uuid: e3aa3d22-a95e-407b-aacc-d855b90a5d70
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: de2.derevohom.xyz
+- name: 🇵🇱 PL 03 - xiaohe
+  type: vless
+  server: 2.26.6.1
+  port: 2087
+  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 2.26.6.1
+- name: 🇵🇱 PL 04 - xiaohe
+  type: vless
   server: 2.26.6.1
   port: 2087
   uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
@@ -29,6 +47,8 @@ proxy-groups:
   - AUTO
   - 🇵🇱 PL 01 - xiaohe
   - 🇵🇱 PL 02 - xiaohe
+  - 🇵🇱 PL 03 - xiaohe
+  - 🇵🇱 PL 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -36,5 +56,7 @@ proxy-groups:
   proxies:
   - 🇵🇱 PL 01 - xiaohe
   - 🇵🇱 PL 02 - xiaohe
+  - 🇵🇱 PL 03 - xiaohe
+  - 🇵🇱 PL 04 - xiaohe
 rules:
 - MATCH,PROXIES
