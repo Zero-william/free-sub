@@ -33,18 +33,17 @@ proxies:
       Host: 45.144.234.157
 - name: 🇫🇮 FI 03 - xiaohe
   type: vless
-  server: 65.109.210.221
-  port: 465
-  uuid: 924e20da-fcad-4e7e-8113-c62d27a0d01e
+  server: 45.144.234.157
+  port: 14430
+  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: hw3.divarkhaghazi.com.
   network: ws
   ws-opts:
-    path: /
+    path: /vless
     headers:
-      Host: hw3.divarkhaghazi.com.
+      Host: 45.144.234.157
 - name: 🇫🇮 FI 04 - xiaohe
   type: vless
   server: hw3.divarkhaghazi.com
@@ -61,31 +60,19 @@ proxies:
       Host: hw3.divarkhaghazi.com.
 - name: 🇫🇮 FI 05 - xiaohe
   type: vless
-  server: 45.144.234.157
-  port: 14430
-  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
+  server: 65.109.210.221
+  port: 465
+  uuid: 924e20da-fcad-4e7e-8113-c62d27a0d01e
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: hw3.divarkhaghazi.com.
   network: ws
   ws-opts:
-    path: /vless
+    path: /
     headers:
-      Host: 45.144.234.157
+      Host: hw3.divarkhaghazi.com.
 - name: 🇫🇮 FI 06 - xiaohe
-  type: vless
-  server: 45.144.234.157
-  port: 14430
-  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 45.144.234.157
-- name: 🇫🇮 FI 07 - xiaohe
   type: vless
   server: 65.109.210.221
   port: 465
@@ -99,6 +86,19 @@ proxies:
     path: /
     headers:
       Host: hw3.divarkhaghazi.com.
+- name: 🇫🇮 FI 07 - xiaohe
+  type: vless
+  server: 45.144.234.157
+  port: 14430
+  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 45.144.234.157
 - name: 🇫🇮 FI 08 - xiaohe
   type: vless
   server: 65.109.211.81
