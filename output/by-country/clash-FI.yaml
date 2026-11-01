@@ -6,18 +6,18 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - xiaohe
   type: vless
-  server: hw3.divarkhaghazi.com
+  server: 65.109.211.81
   port: 465
-  uuid: 924e20da-fcad-4e7e-8113-c62d27a0d01e
+  uuid: 09f30c46-3964-41ce-882a-72aee83ddd42
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: hw3.divarkhaghazi.com.
+  servername: hw6.divarkhaghazi.com
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: hw3.divarkhaghazi.com.
+      Host: hw6.divarkhaghazi.com.
 - name: 🇫🇮 FI 02 - xiaohe
   type: vless
   server: 45.144.234.157
@@ -33,104 +33,6 @@ proxies:
       Host: 45.144.234.157
 - name: 🇫🇮 FI 03 - xiaohe
   type: vless
-  server: 65.109.210.221
-  port: 465
-  uuid: 924e20da-fcad-4e7e-8113-c62d27a0d01e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hw3.divarkhaghazi.com.
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hw3.divarkhaghazi.com.
-- name: 🇫🇮 FI 04 - xiaohe
-  type: vless
-  server: hw3.divarkhaghazi.com
-  port: 465
-  uuid: 924e20da-fcad-4e7e-8113-c62d27a0d01e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hw3.divarkhaghazi.com.
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hw3.divarkhaghazi.com.
-- name: 🇫🇮 FI 05 - xiaohe
-  type: vless
-  server: 65.109.210.221
-  port: 465
-  uuid: 924e20da-fcad-4e7e-8113-c62d27a0d01e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hw3.divarkhaghazi.com.
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hw3.divarkhaghazi.com.
-- name: 🇫🇮 FI 06 - xiaohe
-  type: vless
-  server: 65.109.211.81
-  port: 465
-  uuid: 09f30c46-3964-41ce-882a-72aee83ddd42
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hw6.divarkhaghazi.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hw6.divarkhaghazi.com.
-- name: 🇫🇮 FI 07 - xiaohe
-  type: vless
-  server: 65.109.210.221
-  port: 465
-  uuid: 924e20da-fcad-4e7e-8113-c62d27a0d01e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hw3.divarkhaghazi.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hw3.divarkhaghazi.com.
-- name: 🇫🇮 FI 08 - xiaohe
-  type: vless
-  server: hw3.divarkhaghazi.com.
-  port: 465
-  uuid: 924e20da-fcad-4e7e-8113-c62d27a0d01e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hw3.divarkhaghazi.com.
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hw3.divarkhaghazi.com.
-- name: 🇫🇮 FI 09 - xiaohe
-  type: vless
-  server: hw5.roghanmo.com
-  port: 465
-  uuid: a356fa77-7199-417a-80dd-0c0925789161
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hw5.roghanmo.com.
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hw5.roghanmo.com
-- name: 🇫🇮 FI 10 - xiaohe
-  type: vless
   server: 45.144.234.157
   port: 14430
   uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
@@ -142,20 +44,6 @@ proxies:
     path: /vless
     headers:
       Host: 45.144.234.157
-- name: 🇫🇮 FI 11 - xiaohe
-  type: vless
-  server: 65.109.211.81
-  port: 465
-  uuid: 09f30c46-3964-41ce-882a-72aee83ddd42
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hw6.divarkhaghazi.com.
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hw6.divarkhaghazi.com.
 proxy-groups:
 - name: PROXIES
   type: select
@@ -164,14 +52,6 @@ proxy-groups:
   - 🇫🇮 FI 01 - xiaohe
   - 🇫🇮 FI 02 - xiaohe
   - 🇫🇮 FI 03 - xiaohe
-  - 🇫🇮 FI 04 - xiaohe
-  - 🇫🇮 FI 05 - xiaohe
-  - 🇫🇮 FI 06 - xiaohe
-  - 🇫🇮 FI 07 - xiaohe
-  - 🇫🇮 FI 08 - xiaohe
-  - 🇫🇮 FI 09 - xiaohe
-  - 🇫🇮 FI 10 - xiaohe
-  - 🇫🇮 FI 11 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -180,13 +60,5 @@ proxy-groups:
   - 🇫🇮 FI 01 - xiaohe
   - 🇫🇮 FI 02 - xiaohe
   - 🇫🇮 FI 03 - xiaohe
-  - 🇫🇮 FI 04 - xiaohe
-  - 🇫🇮 FI 05 - xiaohe
-  - 🇫🇮 FI 06 - xiaohe
-  - 🇫🇮 FI 07 - xiaohe
-  - 🇫🇮 FI 08 - xiaohe
-  - 🇫🇮 FI 09 - xiaohe
-  - 🇫🇮 FI 10 - xiaohe
-  - 🇫🇮 FI 11 - xiaohe
 rules:
 - MATCH,PROXIES

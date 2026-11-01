@@ -20,6 +20,18 @@ proxies:
       Host: lvi.su
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   type: vless
+  server: 135.106.153.131
+  port: 443
+  uuid: a5212bcb-ab85-459a-bec6-9f259eeeebfa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: OIWmjOL9lOxVRm-ejEvQf_G-Km-5Rw3L-w5d8rhVzQw
+  servername: rug.tems.bet
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
+  type: vless
   server: lvi.su
   port: 443
   uuid: 7b91b2c3-8af3-449b-a555-00c9460989f4
@@ -32,18 +44,6 @@ proxies:
     path: /vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2
     headers:
       Host: lvi.su
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  type: vless
-  server: 135.106.153.131
-  port: 443
-  uuid: a5212bcb-ab85-459a-bec6-9f259eeeebfa
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: OIWmjOL9lOxVRm-ejEvQf_G-Km-5Rw3L-w5d8rhVzQw
-  servername: rug.tems.bet
-  client-fingerprint: firefox
 - name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
   type: vless
   server: 87.242.119.253
