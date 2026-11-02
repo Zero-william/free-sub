@@ -48,6 +48,20 @@ proxies:
       Host: lorettmay.top
 - name: 🇱🇹 LT 04 - xiaohe
   type: vless
+  server: 185.178.208.167
+  port: 443
+  uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lorettmay.top
+  network: ws
+  ws-opts:
+    path: /blog/posts
+    headers:
+      Host: lorettmay.top
+- name: 🇱🇹 LT 05 - xiaohe
+  type: vless
   server: 88.216.69.253
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
@@ -69,6 +83,7 @@ proxy-groups:
   - 🇱🇹 LT 02 - xiaohe
   - 🇱🇹 LT 03 - xiaohe
   - 🇱🇹 LT 04 - xiaohe
+  - 🇱🇹 LT 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -78,5 +93,6 @@ proxy-groups:
   - 🇱🇹 LT 02 - xiaohe
   - 🇱🇹 LT 03 - xiaohe
   - 🇱🇹 LT 04 - xiaohe
+  - 🇱🇹 LT 05 - xiaohe
 rules:
 - MATCH,PROXIES
