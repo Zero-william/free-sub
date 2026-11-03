@@ -6,18 +6,18 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xiaohe
   type: vless
-  server: 172.67.208.235
-  port: 2096
-  uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
+  server: 153.76.190.31
+  port: 2083
+  uuid: d65fb384-5029-4edf-bdc7-0f5960600e3d
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: courses.mftplus.qzz.io
+  servername: speedtestmark.com
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    path: /vless-ws
     headers:
-      Host: courses.mftplus.qzz.io
+      Host: 153.76.190.31
 proxy-groups:
 - name: PROXIES
   type: select
