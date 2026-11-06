@@ -6,6 +6,15 @@ log-level: info
 proxies:
 - name: 🇱🇰 LK 01 - xiaohe
   type: vless
+  server: free.vkehi.store
+  port: 443
+  uuid: e4d1298a-1f21-42e2-a53e-1b22c0645c48
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: zoom.com
+- name: 🇱🇰 LK 02 - xiaohe
+  type: vless
   server: 141.193.213.20
   port: 2087
   uuid: 0ef68b97-f878-4cea-b756-c56ea3632851
@@ -18,7 +27,7 @@ proxies:
     path: /
     headers:
       Host: free.vkehi.store
-- name: 🇱🇰 LK 02 - xiaohe
+- name: 🇱🇰 LK 03 - xiaohe
   type: vless
   server: 141.193.213.21
   port: 2087
@@ -32,6 +41,15 @@ proxies:
     path: /
     headers:
       Host: free.vkehi.store
+- name: 🇱🇰 LK 04 - xiaohe
+  type: vless
+  server: free.vkehi.store
+  port: 443
+  uuid: e4d1298a-1f21-42e2-a53e-1b22c0645c48
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: zoom.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -39,6 +57,8 @@ proxy-groups:
   - AUTO
   - 🇱🇰 LK 01 - xiaohe
   - 🇱🇰 LK 02 - xiaohe
+  - 🇱🇰 LK 03 - xiaohe
+  - 🇱🇰 LK 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -46,5 +66,7 @@ proxy-groups:
   proxies:
   - 🇱🇰 LK 01 - xiaohe
   - 🇱🇰 LK 02 - xiaohe
+  - 🇱🇰 LK 03 - xiaohe
+  - 🇱🇰 LK 04 - xiaohe
 rules:
 - MATCH,PROXIES
