@@ -41,15 +41,6 @@ proxies:
     path: /
     headers:
       Host: free.vkehi.store
-- name: 🇱🇰 LK 04 - xiaohe
-  type: vless
-  server: free.vkehi.store
-  port: 443
-  uuid: e4d1298a-1f21-42e2-a53e-1b22c0645c48
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: zoom.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -58,7 +49,6 @@ proxy-groups:
   - 🇱🇰 LK 01 - xiaohe
   - 🇱🇰 LK 02 - xiaohe
   - 🇱🇰 LK 03 - xiaohe
-  - 🇱🇰 LK 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -67,6 +57,5 @@ proxy-groups:
   - 🇱🇰 LK 01 - xiaohe
   - 🇱🇰 LK 02 - xiaohe
   - 🇱🇰 LK 03 - xiaohe
-  - 🇱🇰 LK 04 - xiaohe
 rules:
 - MATCH,PROXIES
