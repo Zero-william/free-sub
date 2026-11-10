@@ -4,24 +4,26 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇱🇺 LU 01 - xiaohe
-  type: ss
-  server: 87.228.61.175
-  port: 1443
-  cipher: chacha20-ietf-poly1305
-  password: tAGGzgRCi6W95UwG0qerf6
+- name: 🇱🇹 LT 01 - xiaohe
+  type: vless
+  server: 45.81.252.143
+  port: 2053
+  uuid: 53555197-bf0a-49e6-bea1-211fcfc1d962
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: germany3.banovano.space
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇱🇺 LU 01 - xiaohe
+  - 🇱🇹 LT 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇱🇺 LU 01 - xiaohe
+  - 🇱🇹 LT 01 - xiaohe
 rules:
 - MATCH,PROXIES
