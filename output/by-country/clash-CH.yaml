@@ -5,31 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇭 CH 01 - xiaohe
-  type: vless
-  server: 185.18.250.245
-  port: 443
-  uuid: f77299ea-e13d-417d-8cdc-ce5566dfc94b
+  type: ss
+  server: 79.127.184.104
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edu.ruangguru.com.r3xxe.eu.cc
-  network: ws
-  ws-opts:
-    path: /nl-tw
-    headers:
-      Host: edu.ruangguru.com.r3xxe.eu.cc
 - name: 🇨🇭 CH 02 - xiaohe
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  type: ss
+  server: 186.190.215.251
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: chrome
 - name: 🇨🇭 CH 03 - xiaohe
   type: vless
   server: 208.69.78.217
@@ -41,29 +29,8 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇨🇭 CH 04 - xiaohe
-  type: ss
-  server: 79.127.184.104
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇨🇭 CH 05 - xiaohe
-  type: vless
-  server: 185.18.250.252
-  port: 443
-  uuid: f77299ea-e13d-417d-8cdc-ce5566dfc94b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edu.ruangguru.com.r3xxe.eu.cc
-  network: ws
-  ws-opts:
-    path: /nl-tw
-    headers:
-      Host: edu.ruangguru.com.r3xxe.eu.cc
-- name: 🇨🇭 CH 06 - xiaohe
   type: vless
   server: 208.69.78.217
   port: 2053
@@ -74,7 +41,26 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: chrome
+- name: 🇨🇭 CH 05 - xiaohe
+  type: vless
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇨🇭 CH 06 - xiaohe
+  type: ss
+  server: 23.166.88.127
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
 - name: 🇨🇭 CH 07 - xiaohe
   type: vless
   server: 208.69.78.217
@@ -86,7 +72,7 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇨🇭 CH 08 - xiaohe
   type: vless
   server: 208.69.78.217
@@ -98,15 +84,8 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇨🇭 CH 09 - xiaohe
-  type: ss
-  server: 23.166.88.127
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇨🇭 CH 10 - xiaohe
   type: vless
   server: 208.69.78.217
   port: 2053
@@ -118,13 +97,6 @@ proxies:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
   client-fingerprint: firefox
-- name: 🇨🇭 CH 11 - xiaohe
-  type: ss
-  server: 186.190.215.251
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -139,8 +111,6 @@ proxy-groups:
   - 🇨🇭 CH 07 - xiaohe
   - 🇨🇭 CH 08 - xiaohe
   - 🇨🇭 CH 09 - xiaohe
-  - 🇨🇭 CH 10 - xiaohe
-  - 🇨🇭 CH 11 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -155,7 +125,5 @@ proxy-groups:
   - 🇨🇭 CH 07 - xiaohe
   - 🇨🇭 CH 08 - xiaohe
   - 🇨🇭 CH 09 - xiaohe
-  - 🇨🇭 CH 10 - xiaohe
-  - 🇨🇭 CH 11 - xiaohe
 rules:
 - MATCH,PROXIES
