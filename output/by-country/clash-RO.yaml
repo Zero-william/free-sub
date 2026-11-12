@@ -4,33 +4,33 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇪 IE 01 - xiaohe
+- name: 🇷🇴 RO 01 - xiaohe
   type: ss
-  server: 68.219.96.146
+  server: bogging-eyeteeth-fly.freesocks.work
   port: 443
   cipher: chacha20-ietf-poly1305
-  password: G2shlbeRXdE45aVA
+  password: QFWzCw2uX9B9i6qAYeFBIE
   udp: true
-- name: 🇮🇪 IE 02 - xiaohe
+- name: 🇷🇴 RO 02 - xiaohe
   type: ss
-  server: 68.219.96.146
+  server: 154.46.31.106
   port: 443
   cipher: chacha20-ietf-poly1305
-  password: G2shlbeRXdE45aVA
+  password: QFWzCw2uX9B9i6qAYeFBIE
   udp: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇪 IE 01 - xiaohe
-  - 🇮🇪 IE 02 - xiaohe
+  - 🇷🇴 RO 01 - xiaohe
+  - 🇷🇴 RO 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇪 IE 01 - xiaohe
-  - 🇮🇪 IE 02 - xiaohe
+  - 🇷🇴 RO 01 - xiaohe
+  - 🇷🇴 RO 02 - xiaohe
 rules:
 - MATCH,PROXIES
