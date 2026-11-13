@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇿 KZ 01 - xiaohe
+- name: 🇨🇿 CZ 01 - xiaohe
   type: vless
-  server: 38.107.234.57
+  server: 188.137.178.174
   port: 8443
-  uuid: 2424febb-43cb-488d-bdd1-401e923c8e48
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 3h-kazakhstan1.09vpn.com
+  servername: fs.qicai99.com
   network: ws
   ws-opts:
-    path: /vless/
+    path: /fp=chrome
     headers:
-      Host: 38.107.234.57
+      Host: fs.qicai99.com
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇰🇿 KZ 01 - xiaohe
+  - 🇨🇿 CZ 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇿 KZ 01 - xiaohe
+  - 🇨🇿 CZ 01 - xiaohe
 rules:
 - MATCH,PROXIES
