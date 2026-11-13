@@ -59,11 +59,16 @@ proxies:
 - name: 🇧🇾 BY 05 - xiaohe
   type: vless
   server: 178.172.227.124
-  port: 10443
+  port: 14430
   uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 178.172.227.124
 - name: 🇧🇾 BY 06 - xiaohe
   type: vless
   server: 178.172.227.124
@@ -75,16 +80,11 @@ proxies:
 - name: 🇧🇾 BY 07 - xiaohe
   type: vless
   server: 178.172.227.124
-  port: 14430
+  port: 10443
   uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 178.172.227.124
 proxy-groups:
 - name: PROXIES
   type: select
