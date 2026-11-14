@@ -12,19 +12,12 @@ proxies:
   password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
   udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  type: vless
-  server: 31.177.111.184
-  port: 443
-  uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: yZiPrr484OdSYcivDUv+UIygwvyW+HQYytKsIgTw9tU=
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: zry9ocg43w.flowersgood.top
-  network: ws
-  ws-opts:
-    path: /static/collect/9412171e8a3a/
-    headers:
-      Host: zry9ocg43w.flowersgood.top
 proxy-groups:
 - name: PROXIES
   type: select
