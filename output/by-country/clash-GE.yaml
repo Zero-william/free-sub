@@ -4,10 +4,10 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇱 IL 01 - xiaohe
+- name: 🇬🇪 GE 01 - xiaohe
   type: vless
-  server: 192.71.27.237
-  port: 443
+  server: 194.135.119.82
+  port: 2053
   uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   udp: true
   tls: true
@@ -23,12 +23,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇮🇱 IL 01 - xiaohe
+  - 🇬🇪 GE 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇱 IL 01 - xiaohe
+  - 🇬🇪 GE 01 - xiaohe
 rules:
 - MATCH,PROXIES
