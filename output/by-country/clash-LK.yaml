@@ -29,7 +29,7 @@ proxies:
   servername: pcloud.z-tas.com
   network: ws
   ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048
     headers:
       Host: pcloud.z-tas.com
 proxy-groups:
