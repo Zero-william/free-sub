@@ -6,22 +6,28 @@ log-level: info
 proxies:
 - name: 🇵🇱 PL 01 - xiaohe
   type: vless
-  server: 2.26.6.1
-  port: 2087
-  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  server: d58daft.plp1.h1cloud.net
+  port: 443
+  uuid: c82031be-e90f-4b15-ab4f-7ccef236d3ca
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 2.26.6.1
+  reality-opts:
+    public-key: ixnCbdlT5sAVd-ilp2nG11CvnNsBCf9xPD56TlXxlR4
+  servername: d58daft.plp1.h1cloud.net
+  client-fingerprint: chrome
 - name: 🇵🇱 PL 02 - xiaohe
   type: vless
-  server: 2.26.6.1
-  port: 2087
-  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  server: 185.255.115.87
+  port: 443
+  uuid: 55458d10-24ab-4ea6-a522-13741b546f2a
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 2.26.6.1
+  reality-opts:
+    public-key: ixnCbdlT5sAVd-ilp2nG11CvnNsBCf9xPD56TlXxlR4
+  servername: d58daft.plp1.h1cloud.net
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
