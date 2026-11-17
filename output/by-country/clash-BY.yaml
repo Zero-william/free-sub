@@ -6,44 +6,13 @@ log-level: info
 proxies:
 - name: 🇧🇾 BY 01 - xiaohe
   type: vless
-  server: 95.128.71.79
-  port: 14430
-  uuid: 8cef7621-c6f0-486e-b51d-59c30c5b0b25
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 95.128.71.79
-- name: 🇧🇾 BY 02 - xiaohe
-  type: vless
-  server: 95.128.71.79
-  port: 14430
-  uuid: 8cef7621-c6f0-486e-b51d-59c30c5b0b25
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 95.128.71.79
-- name: 🇧🇾 BY 03 - xiaohe
-  type: vless
   server: 178.172.227.124
-  port: 14430
+  port: 10443
   uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 178.172.227.124
-- name: 🇧🇾 BY 04 - xiaohe
+- name: 🇧🇾 BY 02 - xiaohe
   type: vless
   server: 178.172.227.124
   port: 10443
@@ -51,7 +20,15 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇧🇾 BY 05 - xiaohe
+- name: 🇧🇾 BY 03 - xiaohe
+  type: vless
+  server: 178.172.227.124
+  port: 10443
+  uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇧🇾 BY 04 - xiaohe
   type: vless
   server: 178.172.227.124
   port: 14430
@@ -64,6 +41,19 @@ proxies:
     path: /vless
     headers:
       Host: 178.172.227.124
+- name: 🇧🇾 BY 05 - xiaohe
+  type: vless
+  server: 95.128.71.79
+  port: 14430
+  uuid: 8cef7621-c6f0-486e-b51d-59c30c5b0b25
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 95.128.71.79
 - name: 🇧🇾 BY 06 - xiaohe
   type: vless
   server: 178.172.227.228
@@ -78,14 +68,6 @@ proxies:
     headers:
       Host: 178.172.227.228
 - name: 🇧🇾 BY 07 - xiaohe
-  type: vless
-  server: 178.172.227.124
-  port: 10443
-  uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇧🇾 BY 08 - xiaohe
   type: vless
   server: 178.172.227.228
   port: 14430
@@ -110,7 +92,6 @@ proxy-groups:
   - 🇧🇾 BY 05 - xiaohe
   - 🇧🇾 BY 06 - xiaohe
   - 🇧🇾 BY 07 - xiaohe
-  - 🇧🇾 BY 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -123,6 +104,5 @@ proxy-groups:
   - 🇧🇾 BY 05 - xiaohe
   - 🇧🇾 BY 06 - xiaohe
   - 🇧🇾 BY 07 - xiaohe
-  - 🇧🇾 BY 08 - xiaohe
 rules:
 - MATCH,PROXIES
