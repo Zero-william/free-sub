@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - xiaohe
   type: vless
-  server: 198.202.24.142
+  server: 104.17.145.145
   port: 2083
   uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
   udp: true
@@ -20,13 +20,17 @@ proxies:
       Host: vipfree.dr-ping.ir
 - name: 🇫🇮 FI 02 - xiaohe
   type: vless
-  server: 65.109.238.140
-  port: 443
-  uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
+  server: 45.144.234.157
+  port: 14430
+  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: hel1.nordlinkcloud.com
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 45.144.234.157
 - name: 🇫🇮 FI 03 - xiaohe
   type: vless
   server: 198.202.24.142
@@ -43,18 +47,33 @@ proxies:
       Host: vipfree.dr-ping.ir
 - name: 🇫🇮 FI 04 - xiaohe
   type: vless
-  server: 45.144.234.157
-  port: 14430
-  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
+  server: 198.202.24.142
+  port: 2083
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: vipfree.dr-ping.ir
   network: ws
   ws-opts:
-    path: /vless
+    path: /
     headers:
-      Host: 45.144.234.157
+      Host: vipfree.dr-ping.ir
 - name: 🇫🇮 FI 05 - xiaohe
+  type: vless
+  server: 172.64.79.163
+  port: 2083
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: vipfree.dr-ping.ir
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vipfree.dr-ping.ir
+- name: 🇫🇮 FI 06 - xiaohe
   type: vless
   server: 45.144.234.157
   port: 14430
@@ -67,7 +86,7 @@ proxies:
     path: /vless
     headers:
       Host: 45.144.234.157
-- name: 🇫🇮 FI 06 - xiaohe
+- name: 🇫🇮 FI 07 - xiaohe
   type: vless
   server: 45.144.234.157
   port: 14430
@@ -91,6 +110,7 @@ proxy-groups:
   - 🇫🇮 FI 04 - xiaohe
   - 🇫🇮 FI 05 - xiaohe
   - 🇫🇮 FI 06 - xiaohe
+  - 🇫🇮 FI 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -102,5 +122,6 @@ proxy-groups:
   - 🇫🇮 FI 04 - xiaohe
   - 🇫🇮 FI 05 - xiaohe
   - 🇫🇮 FI 06 - xiaohe
+  - 🇫🇮 FI 07 - xiaohe
 rules:
 - MATCH,PROXIES

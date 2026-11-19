@@ -4,31 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇩 ID 01 - xiaohe
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 12d67d2b-ae5c-4d56-9f14-d71d96f7826f
+- name: 🇧🇷 BR 01 - xiaohe
+  type: vmess
+  server: 103.88.232.55
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: natan.srpcom.cloud
-  network: ws
-  ws-opts:
-    path: /vlessws
-    headers:
-      Host: natan.srpcom.cloud
+  servername: None
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇩 ID 01 - xiaohe
+  - 🇧🇷 BR 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇩 ID 01 - xiaohe
+  - 🇧🇷 BR 01 - xiaohe
 rules:
 - MATCH,PROXIES
