@@ -6,45 +6,29 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   type: vless
-  server: 37.9.4.62
+  server: 193.233.219.98
   port: 443
-  uuid: 88e79aa6-f431-4453-8dcc-652a0c747198
+  uuid: 265ecca2-4733-49de-b2c9-ed7f0e999655
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: vP4XeQ-z8LYtkSz1SCAxRMAEPreaHspoXm2nt0okQVw
-  servername: 360.yandex.ru
-  client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  type: ss
-  server: 90.156.203.62
-  port: 5112
-  cipher: chacha20-ietf-poly1305
-  password: VVlAff77CnAU43Aoc5j15Y
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  type: ss
-  server: 130.49.189.158
-  port: 43558
-  cipher: chacha20-ietf-poly1305
-  password: LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog=
-  udp: true
+  servername: daily-author.ru
+  network: ws
+  ws-opts:
+    path: /api/vless
+    headers:
+      Host: vpn-rating.space
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
 rules:
 - MATCH,PROXIES
