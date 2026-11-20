@@ -6,18 +6,18 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   type: vless
-  server: 193.233.219.98
+  server: 147.45.175.81
   port: 443
-  uuid: 265ecca2-4733-49de-b2c9-ed7f0e999655
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: daily-author.ru
+  servername: xsru2.freeddns.org
   network: ws
   ws-opts:
-    path: /api/vless
+    path: /wsru
     headers:
-      Host: vpn-rating.space
+      Host: xsru2.freeddns.org
 proxy-groups:
 - name: PROXIES
   type: select
