@@ -6,13 +6,13 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   type: vless
-  server: 136.148.83.69
+  server: 168.113.253.178
   port: 443
-  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
+  uuid: d6d40100-9442-0001-b5b9-6d259318c421
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: szqbx-ru-77dc.my-fade.cloud
+  servername: uzndiuvzvqqljdyhzs.fcloudservices.site
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   type: vless
   server: 168.113.253.178
@@ -23,41 +23,57 @@ proxies:
   skip-cert-verify: true
   servername: uzndiuvzvqqljdyhzs.fcloudservices.site
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  type: ss
-  server: 130.49.189.158
-  port: 43558
-  cipher: chacha20-ietf-poly1305
-  password: LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog=
+  type: vless
+  server: 147.45.175.81
+  port: 443
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xsru2.freeddns.org
+  network: ws
+  ws-opts:
+    path: /wsru
+    headers:
+      Host: xsru2.freeddns.org
 - name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
   type: vless
-  server: 188.114.98.5
+  server: 147.45.221.225
   port: 443
-  uuid: c3647117-baf4-4072-a872-fc762fc24ec9
+  uuid: 58e22afd-bf74-4736-984d-63a8ca03d7f0
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn-edge-2fba99-gw.eng-ops-7084b7.workers.dev
+  servername: nl.lucheeebezlimitnoekino.stream
   network: ws
   ws-opts:
-    path: /9ea36182644d0f1f?ed=2560
+    path: /media/ws/
     headers:
-      Host: cdn-edge-2fba99-gw.eng-ops-7084b7.workers.dev
+      Host: 147.45.221.225
 - name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   type: vless
-  server: 188.114.98.5
+  server: cabinet.filnex.baby
   port: 443
-  uuid: c3647117-baf4-4072-a872-fc762fc24ec9
+  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn-edge-2fba99-gw.eng-ops-7084b7.workers.dev
+  servername: claywick.elvano.website
   network: ws
   ws-opts:
-    path: /9ea36182644d0f1f?ed=2560
+    path: /api/de7/stream
     headers:
-      Host: cdn-edge-2fba99-gw.eng-ops-7084b7.workers.dev
+      Host: cabinet.filnex.baby
 - name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+  type: vless
+  server: 136.148.83.69
+  port: 443
+  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: szqbx-ru-77dc.my-fade.cloud
+- name: 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
   type: vless
   server: 168.113.253.178
   port: 443
@@ -66,21 +82,32 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: uzndiuvzvqqljdyhzs.fcloudservices.site
-- name: 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
+- name: 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
   type: vless
-  server: 91.185.83.43
+  server: 168.113.252.11
   port: 443
-  uuid: 7955bf18-35c4-412d-aabd-c0b36c793063
+  uuid: 8973e4a5-1c15-0001-abc7-60fb180063ea
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: pssdwynorv.newwl.pro
-  network: ws
-  ws-opts:
-    path: /service/telemetry/0294da469190/
-    headers:
-      Host: 91.185.83.43
-- name: 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
+  servername: jkawq-ru-45sb.fade.mom
+- name: 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
+  type: vless
+  server: 136.148.83.69
+  port: 443
+  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: szqbx-ru-77dc.my-fade.cloud
+- name: 🇷🇺 俄罗斯 (Russia) 10 - xiaohe
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog=
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 11 - xiaohe
   type: vless
   server: 168.113.253.178
   port: 443
@@ -89,25 +116,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: uzndiuvzvqqljdyhzs.fcloudservices.site
-- name: 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
-  type: vless
-  server: 168.113.253.178
-  port: 443
-  uuid: 58708e38-dd5a-0001-902d-93621ee2bd83
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: uzndiuvzvqqljdyhzs.fcloudservices.site
-- name: 🇷🇺 俄罗斯 (Russia) 10 - xiaohe
-  type: vless
-  server: 136.148.83.69
-  port: 443
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: szqbx-ru-77dc.my-fade.cloud
-- name: 🇷🇺 俄罗斯 (Russia) 11 - xiaohe
+- name: 🇷🇺 俄罗斯 (Russia) 12 - xiaohe
   type: vless
   server: 136.148.83.69
   port: 443
@@ -116,18 +125,11 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: szqbx-ru-77dc.my-fade.cloud
-- name: 🇷🇺 俄罗斯 (Russia) 12 - xiaohe
-  type: ss
-  server: 48.103.218.77
-  port: 18443
-  cipher: aes-256-gcm
-  password: 5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe
-  udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 13 - xiaohe
   type: vless
   server: 136.148.83.69
   port: 443
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
+  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
   udp: true
   tls: true
   skip-cert-verify: true
@@ -141,6 +143,15 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: szqbx-ru-77dc.my-fade.cloud
+- name: 🇷🇺 俄罗斯 (Russia) 15 - xiaohe
+  type: vless
+  server: 168.113.253.178
+  port: 443
+  uuid: eb88bb1a-7bf0-0001-b9cd-4f97c89f0e9b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: uzndiuvzvqqljdyhzs.fcloudservices.site
 proxy-groups:
 - name: PROXIES
   type: select
@@ -160,6 +171,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 12 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 13 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 14 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 15 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -179,5 +191,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 12 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 13 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 14 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 15 - xiaohe
 rules:
 - MATCH,PROXIES
