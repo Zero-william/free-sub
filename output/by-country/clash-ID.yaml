@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇸🇨 SC 01 - xiaohe
+- name: 🇮🇩 ID 01 - xiaohe
   type: vless
-  server: 154.211.8.227
-  port: 2087
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
+  server: 188.114.98.0
+  port: 443
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: proxy-34l.pages.dev
+  servername: freeceshi6.frii.site
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip
     headers:
-      Host: proxy-34l.pages.dev
+      Host: freeceshi6.frii.site
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇸🇨 SC 01 - xiaohe
+  - 🇮🇩 ID 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇸🇨 SC 01 - xiaohe
+  - 🇮🇩 ID 01 - xiaohe
 rules:
 - MATCH,PROXIES

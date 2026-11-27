@@ -1,0 +1,40 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇮🇷 IR 01 - xiaohe
+  type: vless
+  server: 37.202.228.219
+  port: 443
+  uuid: ff1906a5-a446-44e4-8e72-4e2d61775fa0
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ns2.irts.lol
+- name: 🇮🇷 IR 02 - xiaohe
+  type: vless
+  server: ns2.irts.lol
+  port: 443
+  uuid: ff1906a5-a446-44e4-8e72-4e2d61775fa0
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ns2.irts.lol
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇮🇷 IR 01 - xiaohe
+  - 🇮🇷 IR 02 - xiaohe
+- name: AUTO
+  type: url-test
+  url: https://www.google.com/generate_204
+  interval: 300
+  proxies:
+  - 🇮🇷 IR 01 - xiaohe
+  - 🇮🇷 IR 02 - xiaohe
+rules:
+- MATCH,PROXIES
