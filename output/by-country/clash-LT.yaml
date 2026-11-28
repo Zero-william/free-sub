@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇩 ID 01 - xiaohe
+- name: 🇱🇹 LT 01 - xiaohe
   type: vless
-  server: 188.114.98.0
+  server: 5.199.173.195
   port: 443
-  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: freeceshi6.frii.site
+  servername: v4-77j.pages.dev
   network: ws
   ws-opts:
-    path: /proxyip
+    path: /
     headers:
-      Host: freeceshi6.frii.site
+      Host: v4-77j.pages.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇩 ID 01 - xiaohe
+  - 🇱🇹 LT 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇩 ID 01 - xiaohe
+  - 🇱🇹 LT 01 - xiaohe
 rules:
 - MATCH,PROXIES
